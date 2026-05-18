@@ -4,6 +4,7 @@ import { useQuiz } from '../context/QuizContext.jsx'
 import { calcScore } from '../context/QuizContext.jsx'
 import { useLocalStorage } from '../hooks/useLocalStorage.js'
 import ReviewCard from '../components/ReviewCard.jsx'
+import { supabase } from '../lib/supabase.js'
 
 function formatDuration(rawMs) {
   const ms  = Math.max(0, rawMs)
@@ -33,10 +34,11 @@ export default function Results() {
   const score    = useMemo(() => calcScore(answers, questions), [answers, questions])
   const duration = startTime ? Math.max(0, Date.now() - startTime) : 0
 
-  // Write attempt to localStorage exactly once when the page mounts with a
-  // valid session. Keying on startTime prevents double-writes in StrictMode.
+  // Write attempt to localStorage and Supabase exactly once on mount.
+  // Keying on startTime prevents double-writes in StrictMode.
   useEffect(() => {
     if (!quizComplete || questions.length === 0 || !startTime) return
+
     setAttempts(prev => {
       if (prev.some(a => a.startTime === startTime)) return prev
       return [
@@ -49,6 +51,24 @@ export default function Results() {
           mode,
         },
       ]
+    })
+
+    const years = [...new Set(questions.map(q => q.year).filter(Boolean))]
+    const year  = years.length === 1 ? years[0] : null
+
+    supabase.from('attempts').insert({
+      year,
+      score:            score.total,
+      max_score:        score.maxScore,
+      correct:          score.correct,
+      wrong:            score.wrong,
+      unanswered:       score.unanswered,
+      total_questions:  questions.length,
+      mode,
+      duration_seconds: Math.round(duration / 1000),
+      subject_breakdown: score.bySubject,
+    }).then(({ error }) => {
+      if (error) console.error('Supabase insert failed:', error.message)
     })
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []) // intentionally empty — run once on mount only
