@@ -19,23 +19,25 @@ export default function QuestionCard({ question, selectedAnswer, onAnswer }) {
       )}
 
       {question.has_image && question.image_path ? (
+        <div className="flex justify-center">
+          <img
+            src={`${import.meta.env.BASE_URL}${question.image_path}`}
+            alt="Question diagram"
+            className="max-w-full max-h-80 object-contain rounded-lg border border-gray-100"
+            loading="lazy"
+          />
+        </div>
+      ) : (
         <>
-          <div className="flex justify-center">
-            <img
-              src={`${import.meta.env.BASE_URL}${question.image_path}`}
-              alt="Question diagram"
-              className="max-w-full max-h-80 object-contain rounded-lg border border-gray-100"
-              loading="lazy"
-            />
-          </div>
-          <p className="text-gray-500 text-sm leading-relaxed whitespace-pre-wrap">
+          <p className="text-gray-900 text-base leading-relaxed whitespace-pre-wrap">
             {question.text}
           </p>
+          {(question.subject === 'Physics' || question.subject === 'Chemistry') && (
+            <p className="text-xs text-amber-600">
+              Note: mathematical symbols may not display correctly
+            </p>
+          )}
         </>
-      ) : (
-        <p className="text-gray-900 text-base leading-relaxed whitespace-pre-wrap">
-          {question.text}
-        </p>
       )}
 
       <div className="flex flex-col gap-2">
