@@ -1,10 +1,12 @@
-import { useEffect, useMemo } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import emailjs from '@emailjs/browser'
 import { useQuiz } from '../context/QuizContext.jsx'
 import { calcScore } from '../context/QuizContext.jsx'
 import { useLocalStorage } from '../hooks/useLocalStorage.js'
 import ReviewCard from '../components/ReviewCard.jsx'
 import { supabase } from '../lib/supabase.js'
+import { buildReportPDF, buildReportText } from '../lib/generateReport.js'
 
 function formatDuration(rawMs) {
   const ms  = Math.max(0, rawMs)
@@ -25,6 +27,7 @@ export default function Results() {
   } = useQuiz()
 
   const [attempts, setAttempts] = useLocalStorage('neet_attempts', [])
+  const [emailStatus, setEmailStatus] = useState(null) // null | 'sending' | 'sent' | 'error'
 
   // Guard: must arrive here with a completed session
   useEffect(() => {
@@ -88,6 +91,43 @@ export default function Results() {
     navigate('/config')
   }
 
+  function handleDownloadPDF() {
+    const doc = buildReportPDF({ questions, answers, score, duration, mode, startTime })
+    const date = new Date().toISOString().slice(0, 10)
+    doc.save(`neet-report-${date}.pdf`)
+  }
+
+  async function handleEmailReport() {
+    setEmailStatus('sending')
+    try {
+      const body = buildReportText({ questions, answers, score, duration, mode, startTime })
+      const pct  = score.maxScore > 0 ? Math.round((score.total / score.maxScore) * 100) : 0
+      const date = startTime
+        ? new Date(startTime).toLocaleDateString('en-IN', { dateStyle: 'long' })
+        : new Date().toLocaleDateString('en-IN', { dateStyle: 'long' })
+
+      await emailjs.send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        {
+          date,
+          mode,
+          score:     `${score.total} / ${score.maxScore}`,
+          pct:       `${pct}%`,
+          correct:   score.correct,
+          wrong:     score.wrong,
+          unanswered: score.unanswered,
+          report_body: body,
+        },
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+      )
+      setEmailStatus('sent')
+    } catch (err) {
+      console.error('EmailJS error:', err)
+      setEmailStatus('error')
+    }
+  }
+
   return (
     <div className="min-h-screen bg-gray-50 py-8 px-4">
       <div className="max-w-2xl mx-auto space-y-6">
@@ -147,7 +187,7 @@ export default function Results() {
           </table>
 
           {/* Actions */}
-          <div className="flex gap-3 pt-1">
+          <div className="flex gap-3 pt-1 flex-wrap">
             <button
               onClick={handleReset}
               className="flex-1 py-2 border border-gray-300 rounded-xl text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors"
@@ -159,6 +199,25 @@ export default function Results() {
               className="flex-1 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-sm font-semibold transition-colors"
             >
               New quiz
+            </button>
+          </div>
+
+          <div className="flex gap-3 flex-wrap">
+            <button
+              onClick={handleDownloadPDF}
+              className="flex-1 py-2 border border-gray-300 rounded-xl text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors"
+            >
+              Download PDF
+            </button>
+            <button
+              onClick={handleEmailReport}
+              disabled={emailStatus === 'sending' || emailStatus === 'sent'}
+              className="flex-1 py-2 border border-indigo-300 rounded-xl text-sm font-medium text-indigo-700 hover:bg-indigo-50 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              {emailStatus === 'sending' ? 'Sending…'
+                : emailStatus === 'sent'  ? 'Sent!'
+                : emailStatus === 'error' ? 'Failed — retry'
+                : 'Email report'}
             </button>
           </div>
         </div>
