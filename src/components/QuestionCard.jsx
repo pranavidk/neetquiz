@@ -25,7 +25,7 @@ export default function QuestionCard({ question, selectedAnswer, onAnswer }) {
       {question.has_image && question.image_path && (
         <div className="flex justify-center">
           <img
-            src={`/${question.image_path}`}
+            src={`${import.meta.env.BASE_URL}${question.image_path}`}
             alt="Question diagram"
             className="max-w-full max-h-80 object-contain rounded-lg border border-gray-100"
             loading="lazy"
