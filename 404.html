@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      const path = window.location.pathname.replace('/neetquiz', '') || '/';
+      window.location.replace('/neetquiz/?r=' + encodeURIComponent(path));
+    </script>
+  </head>
+</html>
