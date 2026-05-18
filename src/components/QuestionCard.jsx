@@ -18,19 +18,24 @@ export default function QuestionCard({ question, selectedAnswer, onAnswer }) {
         </div>
       )}
 
-      <p className="text-gray-900 text-base leading-relaxed whitespace-pre-wrap">
-        {question.text}
-      </p>
-
-      {question.has_image && question.image_path && (
-        <div className="flex justify-center">
-          <img
-            src={`${import.meta.env.BASE_URL}${question.image_path}`}
-            alt="Question diagram"
-            className="max-w-full max-h-80 object-contain rounded-lg border border-gray-100"
-            loading="lazy"
-          />
-        </div>
+      {question.has_image && question.image_path ? (
+        <>
+          <div className="flex justify-center">
+            <img
+              src={`${import.meta.env.BASE_URL}${question.image_path}`}
+              alt="Question diagram"
+              className="max-w-full max-h-80 object-contain rounded-lg border border-gray-100"
+              loading="lazy"
+            />
+          </div>
+          <p className="text-gray-500 text-sm leading-relaxed whitespace-pre-wrap">
+            {question.text}
+          </p>
+        </>
+      ) : (
+        <p className="text-gray-900 text-base leading-relaxed whitespace-pre-wrap">
+          {question.text}
+        </p>
       )}
 
       <div className="flex flex-col gap-2">

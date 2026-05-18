@@ -73,17 +73,20 @@ export default function ReviewCard({ question, index, userAnswer }) {
       {/* Expanded body */}
       {open && (
         <div className="border-t border-gray-100 px-4 py-4 bg-gray-50 space-y-4">
-          <p className="text-sm text-gray-800 whitespace-pre-wrap leading-relaxed">{question.text}</p>
-
-          {question.has_image && question.image_path && (
-            <div className="flex justify-center">
-              <img
-                src={`/${question.image_path}`}
-                alt="Question diagram"
-                className="max-w-full max-h-72 object-contain rounded-lg border border-gray-200"
-                loading="lazy"
-              />
-            </div>
+          {question.has_image && question.image_path ? (
+            <>
+              <div className="flex justify-center">
+                <img
+                  src={`${import.meta.env.BASE_URL}${question.image_path}`}
+                  alt="Question diagram"
+                  className="max-w-full max-h-72 object-contain rounded-lg border border-gray-200"
+                  loading="lazy"
+                />
+              </div>
+              <p className="text-xs text-gray-400 whitespace-pre-wrap leading-relaxed">{question.text}</p>
+            </>
+          ) : (
+            <p className="text-sm text-gray-800 whitespace-pre-wrap leading-relaxed">{question.text}</p>
           )}
 
           <div className="flex flex-col gap-2">
@@ -102,7 +105,7 @@ export default function ReviewCard({ question, index, userAnswer }) {
           {question.solution && (
             <div className="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3">
               <p className="text-xs font-semibold text-blue-600 uppercase tracking-wide mb-1">Solution</p>
-              <p className="text-sm text-gray-700 whitespace-pre-wrap leading-relaxed">{question.solution}</p>
+              <pre className="text-sm text-gray-600 whitespace-pre-wrap font-mono bg-gray-50 rounded p-3">{question.solution}</pre>
             </div>
           )}
 
