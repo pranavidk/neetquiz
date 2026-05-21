@@ -1,7 +1,21 @@
 import { useState } from 'react'
 import OptionButton from './OptionButton.jsx'
+import MathText from './MathText.jsx'
 
 const LABELS = ['A', 'B', 'C', 'D']
+
+function reformatMatchColumn(text) {
+  if (!text) return text
+  let out = text.replace(/([^\n])\s+(Column[\s-][IVX]+)/gi, '$1\n$2')
+  const hits = (out.match(/\(?\b[PQRS][.)]\s/g) || []).length
+  if (hits < 3) return out
+  out = out.replace(/([^\n])\s+\(?([PQRS])[.)]\s/g, (_, pre, lbl) => `${pre}\n${lbl}. `)
+  const abcHits = (out.match(/\(?\b[ABCD][.)]\s/g) || []).length
+  if (abcHits >= 3) {
+    out = out.replace(/([^\n])\s+\(?([ABCD])[.)]\s/g, (_, pre, lbl) => `${pre}\n${lbl}. `)
+  }
+  return out
+}
 
 function getStatus(question, userAnswer) {
   if (question.correct_answer === null)    return 'canceled'
@@ -51,7 +65,9 @@ export default function ReviewCard({ question, index, userAnswer }) {
         </span>
 
         <div className="flex-1 min-w-0">
-          <p className="text-sm text-gray-700 line-clamp-2 leading-snug">{question.text}</p>
+          <div className="text-sm text-gray-700 line-clamp-2 leading-snug">
+            <MathText text={question.text} />
+          </div>
           <div className="mt-1.5 flex flex-wrap items-center gap-2">
             <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${cls}`}>
               {icon} {label}
@@ -83,10 +99,14 @@ export default function ReviewCard({ question, index, userAnswer }) {
                   loading="lazy"
                 />
               </div>
-              <p className="text-xs text-gray-400 whitespace-pre-wrap leading-relaxed">{question.text}</p>
+              <p className="text-xs text-gray-400 whitespace-pre-wrap leading-relaxed">
+                <MathText text={reformatMatchColumn(question.text)} />
+              </p>
             </>
           ) : (
-            <p className="text-sm text-gray-800 whitespace-pre-wrap leading-relaxed">{question.text}</p>
+            <p className="text-sm text-gray-800 whitespace-pre-wrap leading-relaxed">
+              <MathText text={reformatMatchColumn(question.text)} />
+            </p>
           )}
 
           <div className="flex flex-col gap-2">
@@ -94,7 +114,7 @@ export default function ReviewCard({ question, index, userAnswer }) {
               <OptionButton
                 key={i}
                 label={LABELS[i]}
-                text={text}
+                text={<MathText text={text} />}
                 selected={userAnswer === i + 1}
                 variant={optionVariant(i, question, userAnswer, status)}
                 disabled
@@ -105,7 +125,9 @@ export default function ReviewCard({ question, index, userAnswer }) {
           {question.solution && (
             <div className="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3">
               <p className="text-xs font-semibold text-blue-600 uppercase tracking-wide mb-1">Solution</p>
-              <pre className="text-sm text-gray-600 whitespace-pre-wrap font-mono bg-gray-50 rounded p-3">{question.solution}</pre>
+              <div className="text-sm text-gray-600 whitespace-pre-wrap font-mono bg-gray-50 rounded p-3">
+                <MathText text={question.solution} />
+              </div>
             </div>
           )}
 
@@ -118,3 +140,4 @@ export default function ReviewCard({ question, index, userAnswer }) {
     </div>
   )
 }
+

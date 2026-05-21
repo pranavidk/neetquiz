@@ -1,7 +1,26 @@
 import { useState, useEffect } from 'react'
 import OptionButton from './OptionButton.jsx'
+import MathText from './MathText.jsx'
 
 const LABELS = ['A', 'B', 'C', 'D']
+
+// Detect and reformat match-the-column questions so P/Q/R/S items appear on separate lines.
+// Handles both "P. text" and "(P) text" label styles; only fires when ≥3 labels found.
+function reformatMatchColumn(text) {
+  if (!text) return text
+  let out = text.replace(/([^\n])\s+(Column[\s-][IVX]+)/gi, '$1\n$2')
+  // Count P/Q/R/S labels in both bare (P.) and parenthesised ((P)) forms
+  const hits = (out.match(/\(?\b[PQRS][.)]\s/g) || []).length
+  if (hits < 3) return out
+  // Break before each label; strip the surrounding ( if present
+  out = out.replace(/([^\n])\s+\(?([PQRS])[.)]\s/g, (_, pre, lbl) => `${pre}\n${lbl}. `)
+  // If A/B/C/D Column-I items are also present, break those too
+  const abcHits = (out.match(/\(?\b[ABCD][.)]\s/g) || []).length
+  if (abcHits >= 3) {
+    out = out.replace(/([^\n])\s+\(?([ABCD])[.)]\s/g, (_, pre, lbl) => `${pre}\n${lbl}. `)
+  }
+  return out
+}
 
 // onAnswer is called with 1|2|3|4 (1-indexed, matching correct_answer in the data)
 export default function QuestionCard({ question, selectedAnswer, onAnswer }) {
@@ -56,13 +75,8 @@ export default function QuestionCard({ question, selectedAnswer, onAnswer }) {
       ) : (
         <>
           <p className="text-gray-900 text-base leading-relaxed whitespace-pre-wrap">
-            {question.text}
+            <MathText text={reformatMatchColumn(question.text)} />
           </p>
-          {(question.subject === 'Physics' || question.subject === 'Chemistry') && (
-            <p className="text-xs text-amber-600">
-              Note: mathematical symbols may not display correctly
-            </p>
-          )}
         </>
       )}
 
@@ -71,7 +85,7 @@ export default function QuestionCard({ question, selectedAnswer, onAnswer }) {
           <OptionButton
             key={i}
             label={LABELS[i]}
-            text={text}
+            text={<MathText text={text} />}
             selected={selectedAnswer === i + 1}
             onClick={() => onAnswer(i + 1)}
             variant={isCanceled ? 'neutral' : 'quiz'}
@@ -82,3 +96,4 @@ export default function QuestionCard({ question, selectedAnswer, onAnswer }) {
     </div>
   )
 }
+
