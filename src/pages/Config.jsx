@@ -47,14 +47,13 @@ function shuffle(arr) {
 
 // ─── Filtering ────────────────────────────────────────────────────────────────
 
-function applyFilters(filters) {
+function applyFilters(questions, filters) {
   return questions.filter(q => {
-    if (!filters.subjects.includes(q.subject))                       return false
-    if (!filters.years.includes(q.year))                             return false
-    if (filters.topic && q.topic !== filters.topic)                  return false
-    if (filters.hideDeleted && q.is_deleted_topic)                   return false
-    // difficulty only filters if the field exists on the question
-    if (q.difficulty && !filters.difficulties.includes(q.difficulty.toLowerCase())) return false
+    if (!filters.subjects.includes(q.subject))                                       return false
+    if (!filters.years.includes(q.year))                                             return false
+    if (filters.topic && q.topic !== filters.topic)                                  return false
+    if (filters.hideDeleted && q.is_deleted_topic)                                   return false
+    if (q.difficulty && !filters.difficulties.includes(q.difficulty.toLowerCase()))  return false
     return true
   })
 }
@@ -69,7 +68,8 @@ export default function Config() {
   const { questions, metadata, loading } = useQuestions()
 
   const ALL_YEARS = metadata?.years ?? []
-  const PRESETS   = useMemo(() => makePresets(ALL_YEARS), [ALL_YEARS])  // eslint-disable-line react-hooks/exhaustive-deps
+  // Derive PRESETS from metadata (not ALL_YEARS array ref) to avoid infinite re-renders
+  const PRESETS   = useMemo(() => makePresets(metadata?.years ?? []), [metadata])
 
   const [f, setF] = useState(() => {
     // Initial state uses empty years — will be patched once metadata loads
@@ -90,7 +90,7 @@ export default function Config() {
       if (f.subjects.includes(q.subject) && q.topic) seen.add(q.topic)
     })
     return [...seen].sort()
-  }, [f.subjects])
+  }, [questions, f.subjects])
 
   // Clear topic selection when it's no longer in the available list
   useEffect(() => {
@@ -102,7 +102,7 @@ export default function Config() {
   const deletedCount = useMemo(() => questions.filter(q => q.is_deleted_topic).length, [questions])
 
   // Live filtered pool
-  const filtered = useMemo(() => applyFilters(f), [f])
+  const filtered = useMemo(() => applyFilters(questions, f), [questions, f])
   const poolSize  = filtered.length
 
   // Cap questionCount if the pool shrank below it

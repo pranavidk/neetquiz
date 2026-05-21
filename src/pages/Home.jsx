@@ -40,13 +40,15 @@ export default function Home() {
         <div className="flex flex-col gap-3">
           <button
             onClick={() => navigate('/config', { state: { mode: 'mock' } })}
-            className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl transition-colors"
+            disabled={loading}
+            className="w-full py-3 bg-blue-600 hover:bg-blue-700 disabled:bg-blue-300 disabled:cursor-not-allowed text-white font-semibold rounded-xl transition-colors"
           >
-            Start mock test
+            {loading ? 'Loading…' : 'Start mock test'}
           </button>
           <button
             onClick={() => navigate('/config')}
-            className="w-full py-3 bg-white hover:bg-gray-50 text-gray-700 font-semibold rounded-xl border border-gray-300 transition-colors"
+            disabled={loading}
+            className="w-full py-3 bg-white hover:bg-gray-50 disabled:bg-gray-50 disabled:cursor-not-allowed text-gray-700 disabled:text-gray-400 font-semibold rounded-xl border border-gray-300 transition-colors"
           >
             Custom quiz
           </button>
