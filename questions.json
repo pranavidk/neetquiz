@@ -298,12 +298,12 @@
     "year": 2025,
     "q_number": 15,
     "subject": "Physics",
-    "text": "In some appropriate units, time (t) and position (x) relation of a moving particle is given by t = x 2 + x. The acceleration of the particle is",
+    "text": "In some appropriate units, time (t) and position (x) relation of a moving particle is given by t = x² + x. The acceleration of the particle is",
     "options": [
-      "( ) − + 3 2 x 2",
-      "( ) − + 3 2 2x 1",
-      "( ) + + 3 2 x 1",
-      "+ + 2 2x 1"
+      "−(2x + 1)³",
+      "−(2x + 1)²",
+      "(2x + 1)³",
+      "(2x + 1)²"
     ],
     "correct_answer": 2,
     "solution": "t = x 2 + x ⇒ = + 2 dt d [x x] dx dx ⇒ = + 1 2x 1 v ⇒ v = (2x + 1) –1 ...(i) 1 2 vdv a (2x 1) [ 1(2x 1) 2] dx − − = = + − + × a = –1(2x + 1) –3 × 2 = –2(2x + 1) –3 = − + 3 2 (2x 1)",
@@ -5002,12 +5002,12 @@
     "year": 2024,
     "q_number": 59,
     "subject": "Chemistry",
-    "text": "In which of the following equilibria, Kp and Kc are NOT equal ?",
+    "text": "In which of the following equilibria, Kp and Kc are NOT equal?",
     "options": [
-      "5(g) 3(g) 2(g) PCl PCl Cl + °",
-      "2(g) 2(g) (g) H I 2HI + °",
-      "(g) 2 (g) 2(g) 2(g) CO H O CO H + + °",
-      "(g) 2(g) 2(g) 2BrCl Br Cl + °"
+      "PCl₅(g) ⇌ PCl₃(g) + Cl₂(g)",
+      "H₂(g) + I₂(g) ⇌ 2HI(g)",
+      "2CO(g) + 2H₂O(g) ⇌ 2CO₂(g) + 2H₂(g)",
+      "2BrCl(g) ⇌ Br₂(g) + Cl₂(g)"
     ],
     "correct_answer": 1,
     "solution": "Kp = Kc g n (RT) ∆ when g n ∆ = 0 then Kp = Kc g n 0 ∆ ≠ Kp ≠ Kc (1) PCl5(g) ⊖⊖⊖[?U+E086] [?U+E087]⊖⊖⊖ PCl3(g) + Cl2(g) g n 0 ∆ ≠ Kp ≠ Kc E 71",
@@ -8399,12 +8399,12 @@
     "year": 2023,
     "q_number": 16,
     "subject": "Physics",
-    "text": "Light travels a distance x in time t1 in air and 10x in time t2 in another denser medium. What is the critical angle for this medium ?",
+    "text": "Light travels a distance x in time t₁ in air and 10x in time t₂ in another denser medium. What is the critical angle for this medium?",
     "options": [
-      "1 2 1 10t sin t −",
-      "1 1 2 t sin 10t −",
-      "1 1 2 10t sin t −",
-      "1 2 1 t sin t −"
+      "sinθₐ = t₁/(10t₂)",
+      "sinθₐ = t₁/(t₂/10)",
+      "sinθₐ = t₁/(10t₂)",
+      "sinθₐ = t₁/t₂"
     ],
     "correct_answer": 3,
     "solution": "Speed of light in air V1 = 1 x t speed of light in a medium V2 = 2 10x t sinθc = 2 1 1 t 10x V t x = θc = 1 1 2 10t sin t − E 104",
@@ -10123,10 +10123,10 @@
     "subject": "Chemistry",
     "text": "Which complex compound is most stable?",
     "options": [
-      "( ) ( ) 3 3 3 3 Co NH NO",
-      "2 2 3 CoCl (en) NO",
-      "( ) ( ) 3 4 6 3 2 Co NH SO",
-      "( ) ( ) ( ) 3 2 3 4 2 Co NH H O Br NO"
+      "Co(NO₃)₃",
+      "CoCl₂(en)NO₂",
+      "Co(NH₃)₄SO₃",
+      "Co(NH₃)₂(H₂O)₄BrNO₂"
     ],
     "correct_answer": 2,
     "solution": "due to Chelation effect of (en).",
@@ -13077,7 +13077,7 @@
     "year": 2022,
     "q_number": 34,
     "subject": "Physics",
-    "text": "The ratio of the distances travelled by a freely falling body in the 1 st, 2 nd, 3 rd and 4 th second :",
+    "text": "The ratio of the distances travelled by a freely falling body in the 1st, 2nd, 3rd and 4th second:",
     "options": [
       "1 : 4 : 9 : 16",
       "1 : 3 : 5 : 7",
@@ -17293,12 +17293,12 @@
     "year": 2021,
     "q_number": 30,
     "subject": "Physics",
-    "text": "A parallel plate capacitor has a uniform electric field 'E' → in the space between the plates. If the distance between the plates is 'd' and the area of each plate is 'A', the energy stored in the capacitor is : (ε0 = permittivity of free space)",
+    "text": "A parallel plate capacitor has a uniform electric field 'E' in the space between the plates. If the distance between the plates is 'd' and the area of each plate is 'A', the energy stored in the capacitor is : (ε₀ = permittivity of free space)",
     "options": [
-      "2 0 2 ε",
-      "ε0EAd",
-      "2 0 1 E Ad 2 ε",
-      "2 0 E Ad ε"
+      "ε₀E²A/2",
+      "ε₀EAd",
+      "ε₀E²Ad/2",
+      "ε₀EAd/2"
     ],
     "correct_answer": 3,
     "solution": "2 CV 2 = 2 0A 1 (Ed) 2 d ε = 2 0 1 E Ad 2 = ε",
@@ -17713,12 +17713,12 @@
     "year": 2021,
     "q_number": 50,
     "subject": "Physics",
-    "text": "A particle moving in a circle of radius R with a uniform speed takes a time T to complete one revolution. If this particle were projected with the same speed at an angle 'θ' to the horizontal, the maximum height attained by it equals 4R. The angle of projection, θ, is then given by :",
+    "text": "A particle moving in a circle of radius R with a uniform speed takes a time T to complete one revolution. If this particle were projected with the same speed at an angle 'θ' to the horizontal, the maximum height attained by it equals 4R. The angle of projection, θ, is then given by:",
     "options": [
-      "1 2 2 1 2 gT cos R − θ = π",
-      "1 2 2 1 cos gT − π θ =",
-      "1 2 2 1 sin gT − π θ =",
-      "1 2 2 1 2 2gT sin R − θ = π E 155 Section-A (Chemistry)"
+      "θ = (1/2) gT cos(π/2 - R)",
+      "θ = (1/2) cos(π - gT)",
+      "θ = (1/2) sin(π - gT)",
+      "θ = (1/2) (2gT sin(R) - π)"
     ],
     "correct_answer": 4,
     "solution": "2 R 2 R T v v T π π = ⇒ = ....(1) 2 2 2 2 2 max 2 v sin 2 R sin H 4R 2g gT θ π θ = = = 1/2 2 2 2gT sin R θ = π 1/2 2 1 2 2gT sin R − θ = π",
@@ -21448,10 +21448,10 @@
     "subject": "Physics",
     "text": "The mean free path for a gas, with molecular diameter d and number density n can be expressed as :",
     "options": [
-      "2 2 2 1 2 n d π",
-      "1 2 n d π",
-      "2 1 2 n d π",
-      "2 2 1 2 n d π"
+      "λ = 2/(√2 n d π)",
+      "λ = 1/(√2 n d π)",
+      "λ = 2/(n d π)",
+      "λ = 2√2/(n d π)"
     ],
     "correct_answer": 3,
     "solution": "Mean free path for a gas sample λm = 2 1 2 d n π where d is diameter of a gas molecule and n is molecular density",
@@ -26612,12 +26612,12 @@
     "year": 2019,
     "q_number": 89,
     "subject": "Chemistry",
-    "text": "What is the correct electronic configuration of the central atom in K4[Fe(CN)6] based on crystal field theory?",
+    "text": "What is the correct electronic configuration of the central atom in K₄[Fe(CN)₆] based on crystal field theory?",
     "options": [
-      "4 2 2g g t e",
-      "6 0 2g g t e",
-      "3 3 2 e t",
-      "4 2 2 e t"
+      "4 ₂g ₂g tₑ",
+      "6 ₀ ₂g ₁g tₑ",
+      "3 ₃ ₂ e t",
+      "4 ₂ ₂ e t"
     ],
     "correct_answer": 2,
     "solution": "In K4[Fe(CN)6] Fe(26) = 3d6 4s2 Fe+2 = 3d6 in presence of SFL 3d6 → 6 0 2g g t e",
@@ -29006,12 +29006,12 @@
     "year": 2018,
     "q_number": 23,
     "subject": "Physics",
-    "text": "An electron of mass m with an initial velocity 0 0 ˆ V V i(V 0) → = > enters an electric field 0ˆ E E i → = − (E0 = constant >0) at t = 0. If λ0 is its de-Broglie wavelength initially, then its de-Broglie wavelength at time t is :-",
+    "text": "An electron of mass m with an initial velocity V₀ → enters an electric field E₀ → = -E₀ (E₀ = constant > 0) at t = 0. If λ₀ is its de-Broglie wavelength initially, then its de-Broglie wavelength at time t is :-",
     "options": [
-      "0 0 0 eE 1 t mV λ +",
-      "0 0 0 eE 1 t mV λ +",
-      "λ0t",
-      "λ0"
+      "λ₀ + (eE₀t)/(mV₀)",
+      "λ₀ + (eE₀t)/(mV₀)",
+      "λ₀t",
+      "λ₀"
     ],
     "correct_answer": 1,
     "solution": "0 ˆ ( e) ( E )i F q E a m m m → → → − − = = = = 0 eE ˆi m 0 0 eE V V t m = + h mv λ = 0 0 h eE t m V m = + 0 0 0 h eE t mV 1 mV = + 0 0 0 eE t 1 mV λ = +",
@@ -32408,12 +32408,12 @@
     "year": 2017,
     "q_number": 5,
     "subject": "Physics",
-    "text": "A physical quantity of the dimensions of length that can be formed out of c, G and 2 0 e 4πε is [c is velocity of light, G is universal constant of gravitation and e is charge] :-",
+    "text": "A physical quantity of the dimensions of length that can be formed out of c, G and e/(4πε) is [c is velocity of light, G is universal constant of gravitation and e is charge]:",
     "options": [
-      "1/2 2 2 0 e c G 4 πε",
-      "1/2 2 2 0 1 e G4 c πε",
-      "2 0 1 e G c 4πε",
-      "1/2 2 2 0 1 e G 4 c πε"
+      "(1/2) * (e² * c) / (G * 4πε)",
+      "(1/2) * (e² * 1) / (G * 4cπε)",
+      "(2 * e * G) / (c * 4πε)",
+      "(1/2) * (e² * 1) / (G * 4cπε)"
     ],
     "correct_answer": 4,
     "solution": "[L] = [c] a [G] b c 2 0 e 4 πε [L] = [LT –1] a [M –1L 3T –2] b c 3 2 ML T− [L] = L a+3b+3c M –b+c T –a–2b–2c a + 3b + 3c =1 –b + c = 0 a + 2b + 2c = 0 On solving, a = – 2 , b = 1 2 , c = 1 2 ∴ L = 1 2 2 2 0 1 e G. 4 c πε",
@@ -32639,12 +32639,12 @@
     "year": 2017,
     "q_number": 16,
     "subject": "Physics",
-    "text": "Preeti reached the metro station and found that the escalator was not working. She walked up the stationary escalator in time t1. On other days, if she remains stationary on the moving escalator, then the escalator takes her up in time t2. The time taken by her to walk up on the moving escalator will be",
+    "text": "Preeti reached the metro station and found that the escalator was not working. She walked up the stationary escalator in time t₁. On other days, if she remains stationary on the moving escalator, then the escalator takes her up in time t₂. The time taken by her to walk up on the moving escalator will be",
     "options": [
-      "1 2 2 1 t t t t −",
-      "1 2 2 1 t t t t +",
-      "t1 – t2",
-      "1 2 t t 2 +"
+      "t₁ - t₂",
+      "t₁ + t₂",
+      "t₁ – t₂",
+      "t₁ + t₂/2"
     ],
     "correct_answer": 2,
     "solution": "V1 → velocity of Preeti V2 → velocity of escalator ℓ → distance 1 2 1 2 1 2 1 2 t t t V V t t t t = = = + + + ℓ ℓ ℓ ℓ",
@@ -32870,12 +32870,12 @@
     "year": 2017,
     "q_number": 27,
     "subject": "Physics",
-    "text": "Radioactive material 'A' has decay constant '8 λ' and material 'B' has decay constant 'λ'. Initially they have same number of nuclei. After what time, the ratio of number of nuclei of material 'B' to that 'A' will be 1 e ?",
+    "text": "Radioactive material 'A' has decay constant '8λ' and material 'B' has decay constant 'λ'. Initially they have the same number of nuclei. After what time will the ratio of the number of nuclei of material 'B' to that of 'A' be e⁻¹?",
     "options": [
-      "1 7λ",
-      "1 8λ",
-      "1 9λ",
-      "1 λ"
+      "t = 1/7λ",
+      "t = 1/8λ",
+      "t = 1/9λ",
+      "t = 1/λ"
     ],
     "correct_answer": null,
     "solution": "λA = 8 λ, λB = λ ⇒ NB = A N e ⇒ N0 e –λt = 8 t 0 N e e −λ ⇒ –λt = –8λt – 1 ⇒ 7λt = –1 ⇒ t = 1 7 −λ Best answer is t = 1 7λ",
@@ -33080,12 +33080,12 @@
     "year": 2017,
     "q_number": 37,
     "subject": "Physics",
-    "text": "Two discs of same moment of inertia rotating about their regular axis passing through centre and perpendicular to the plane of disc with angular velocities ω1 and ω2. They are brought into contact face to face coinciding the axis of rotation. The expression for loss of energy during this process is:-",
+    "text": "Two discs of same moment of inertia rotating about their regular axis passing through centre and perpendicular to the plane of disc with angular velocities ω₁ and ω₂. They are brought into contact face to face coinciding the axis of rotation. The expression for loss of energy during this process is:",
     "options": [
-      "( ) 2 1 2 1 I 4 ω −ω",
-      "( ) 2 1 2 I ω −ω",
-      "( ) 2 1 8 ω −ω",
-      "( ) 2 1 2 1 I 2 ω + ω"
+      "(1/4) I (ω₁² - ω₂²)",
+      "(1/2) I (ω₁² - ω₂²)",
+      "(1/8) (ω₁² - ω₂²)",
+      "(1/2) I (ω₁² + ω₂²)"
     ],
     "correct_answer": 1,
     "solution": "COAM : 2 1 I 2I 2 1 ω + ω ω + ω = ω ⇒ω = (K.E.)i = 2 2 1 2 1 I 2 2 ω + ω 2 1 2 f 1 (K.E.) 2I I 2 2 2 ω + ω = × ω = Loss in K.E. = (K.E.)i – (K.E)f = 2 1 2 I ( ) 4 ω −ω",
@@ -36127,10 +36127,10 @@
     "subject": "Physics",
     "text": "A square loop ABCD carrying a current i, is placed near and coplanar with a long straight conductor XY carrying a current I, the net force on the loop will be :-",
     "options": [
-      "0 2 Ii 3 µ π",
-      "0Ii 2 µ π",
-      "0 2 IiL 3 µ π",
-      "0IiL 2 µ π"
+      "0",
+      "0",
+      "0",
+      "0"
     ],
     "correct_answer": 1,
     "solution": "FAB FCD FBC FAD A D C B I L L i FAB = iℓB (Attractive) FAB = i(L). 0 µ I L 2 2 π (←) = 0 µ iI π (←) FBC (↑) and FAD (↓) ⇒ cancels each other FCD = iℓB (Repulsive) FCD = i(L) 0 µ I 3L 2 2 π (→) = 0 µ iI 3π (→) ⇒ Fnet = 0 0 0 µ iI µ iI 2µ iI 3 3 − = π π π NEET(I) - 2016 E 295 θ ℓ x q q L T2 m1 T1 m2",
@@ -36293,12 +36293,12 @@
     "year": 2016,
     "q_number": 10,
     "subject": "Physics",
-    "text": "A uniform rope of length L and mass m1 hangs vertically from a rigid support. A block of mass m2 is attached to the free end of the rope. A transverse pulse of wavelength λ1 is produced at the lower end of the rope. The wavelength of the pulse when it reaches the top of the rope is λ2. The ratio λ2/λ1 is :",
+    "text": "A uniform rope of length L and mass m₁ hangs vertically from a rigid support. A block of mass m₂ is attached to the free end of the rope. A transverse pulse of wavelength λ₁ is produced at the lower end of the rope. The wavelength of the pulse when it reaches the top of the rope is λ₂. The ratio λ₂/λ₁ is :",
     "options": [
-      "1 2 m m",
-      "1 2 2 m m m +",
-      "2 1 m m",
-      "1 2 1 m m m + NEET(I) - 2016"
+      "1",
+      "2(m₁ + m₂)/m₂",
+      "2m₂/m₁",
+      "1(m₁ + m₂)/m₁"
     ],
     "correct_answer": 2,
     "solution": "T1 = m2g T2 = (m1 + m2)g Velocity ∝ T ⇒ λ ∝ T ⇒ 1 1 2 1 2 2 1 2 m m m T λ λ + = ⇒ = λ λ",
@@ -40229,9 +40229,9 @@
     "text": "If a ball is thrown vertically upwards with speed ‘u’, the distance covered during the last ‘t’ seconds of its ascent is:",
     "options": [
       "ut",
-      "2 1 ut gt 2 −",
-      "2 1 gt 2",
-      "(u + gt)t"
+      "u t - (1/2) g t²",
+      "(1/2) g t²",
+      "(u + g t)t"
     ],
     "correct_answer": 3,
     "solution": "",
@@ -40676,12 +40676,12 @@
     "year": "MOCK-1",
     "q_number": 45,
     "subject": "Physics",
-    "text": "Vectors A and B include an angle α between them. If (A + B) and (A – B), respectively subtend angles θ1 and θ2 with A, then (tan θ1 – tan θ2) is:",
+    "text": "Vectors A and B include an angle α between them. If (A + B) and (A – B), respectively subtend angles θ₁ and θ₂ with A, then (tan θ₁ – tan θ₂) is:",
     "options": [
-      "2 2 2 2 B cos2 A – B cos α α",
-      "2 2 2 2 –B cos2 A – B cos α α",
-      "2 2 2 2 –B sin 2 A – B cos α α",
-      "2 2 2 2 B sin 2 A – B cos α αCHEMISTRY"
+      "2B cos²α/(A – B cosα)",
+      "–2B cos²α/(A – B cosα)",
+      "–2B sin²α/(A – B cosα)",
+      "2B sin²α/(A – B cosα)"
     ],
     "correct_answer": 3,
     "solution": "(3) Sol. Here, the angle between A and B is α. [?U+F051] (A + B) makes an angle θ1 with A [?U+F05C] tan θ1 = Bsin A Bcos α + α Similarly, tan θ2 = Bsin A – Bcos α α Now, tan θ1 – tan θ2 = 2 2 2 2 –2B sin cos A – B cos α α α = 2 2 2 2 –B sin 2 A – B cos α α SKC SIR CHEMISTRY Q.46 (3) Sol: Mass of 1 e– = 9.1 × 10–28 g. No. of mole of electron is 10g = 28 23 0 9.1 10 6 10 − [?U+F031] × ×× = 60 9.1 6 [?U+F031] × Q.47 (4) Sol: X Y Wt 75.8 24.2 mole 75.8 75 24.2 16 1 3 2 1 3/2 2 3 X Y X Y → Q.48 (1) Sol: Kilo moles 1000 4 kilomole 249.5 ( ) = = ( ) ( ) 1 mole of CuSO4·5H2O has 5 mole of H2O 4 kilo mole CuSO4·5H2O has = (5 × 4) kilomole H2O Hence mass = 5 × 4 × 18 = 360kg Q.49 (4) Sol: Q.50 (3) Sol: Balance reaction + ⎯→ + ., 3 3 4 2 3 (2mole) (1mole) 9A 8BO 3A O 4B O Here Limiting reagent is BO3 8 mole BO3 gives 3 mole A3O4 1 mole [?U+F042] gives 3 8 mole A3O4 Q.51 (2) Sol: Q.52 (4) Sol: 𝑀 𝑀𝑤= 5.6 22.4 𝑀 𝑀𝑤= 1 4 Mw = 4 M Q.53 (3) Sol: 2H2 + O2 ⎯→ 2H2O 2 Vol. 1 vol. 2 vol. H2 is limiting reagent 30 ml of H2 would react with O2 = 1 2 × 30 = 15 ml So O2 left = 20–15 = 5 ml Q.54 (1) Sol. Isoelectronic means species having same no. of e– Q.55 (3) Sol: 4f → n = 4, m = – 3 to + 3 λ = 3 s = ± 1/2 Q.56 (4) Sol. Q.57 (2) Sol: Balmer n1 = 2 n2 = n [ ] = − [ ] [ ] 2 2 1 1 v R 2 n − [ ] − − + = [ ] [ ] 2 1 2 2 [n 4] R(n 2)(n 2) R cm 4n 4n Q.58 (3) Sol: n = 3 λ = 0 to n – 1 = 0 to 3 – 1 = 0 to 2 ℓ= 0,1,2 → 3 subshell 𝑠, 𝑝, 𝑑 No. of orbitals = n2 = (3)2 SKC SIR Q.59 (4) Sol: n = 4 λ = 0, 1, 2 ,3 λ = 0 m0 = 0 → No e– λ = 1 m1 = –1, 0, +1 → 2e–   λ = 2 m2 = –2, –1, 0, +1, +2 → 2e–   λ = 3 m3 = –3, –2, –1, 0, +1, +2, +3 → 2e– For m = +1 ⎯→ 6e¯",
@@ -40694,12 +40694,12 @@
     "year": "MOCK-1",
     "q_number": 46,
     "subject": "Chemistry",
-    "text": "How many moles of electron weight 10 g.",
+    "text": "How many moles of electrons weigh 10 g?",
     "options": [
-      "6 × 1023",
-      "31 10 9.1",
-      "6 10 9.1 6 ×",
-      "8 10 6 9.1 ×"
+      "6 × 10²³",
+      "31/10 × 9.1",
+      "6 × 10⁻³/9.1",
+      "8 × 10⁻⁶/9.1"
     ],
     "correct_answer": 3,
     "solution": "",
@@ -40856,12 +40856,12 @@
     "year": "MOCK-1",
     "q_number": 55,
     "subject": "Chemistry",
-    "text": "Which of the following set of quantum number is correct for an electron in 4f orbital? n λ m S",
+    "text": "Which of the following set of quantum numbers is correct for an electron in 4f orbital? n, l, mₗ, s",
     "options": [
-      "4 3 4 +1/2",
-      "4 4  –4 –1/2",
-      "4 3  1 +1/2",
-      "4 2  –2 +1/2"
+      "4, 3, 0, +1/2",
+      "4, 3, -3, -1/2",
+      "4, 3, 0, +1/2",
+      "4, 3, -2, +1/2"
     ],
     "correct_answer": 3,
     "solution": "",
@@ -43160,12 +43160,12 @@
     "year": "MOCK-2",
     "q_number": 3,
     "subject": "Physics",
-    "text": "A uniform rope of length λ lies on a table. If the coefficient of friction is μ, then the maximum length λ1 of the part of this rope which can overhang from the edge of the table without sliding down is",
+    "text": "A uniform rope of length λ lies on a table. If the coefficient of friction is μ, then the maximum length λ₁ of the part of this rope which can overhang from the edge of the table without sliding down is",
     "options": [
-      "1 μ",
-      "1 1 μ+",
-      "l 1 μ + μ",
-      "l 1 μ −μ"
+      "λ/μ",
+      "λ/(1 + μ)",
+      "λ/(1 + μ)",
+      "λ/(1 - μ)"
     ],
     "correct_answer": 3,
     "solution": "(3) Sol. Mass of length x = Mx I mass of (1 – x) length = ( ) M 1 x I × − [?U+F05C]at equilibrium ( ) M M g 1 x g I I ×= μ − X = l 1 μ + μ",
@@ -43178,7 +43178,7 @@
     "year": "MOCK-2",
     "q_number": 4,
     "subject": "Physics",
-    "text": "In the shown arrangement if f1, f2 and T be the frictional forces on 2 kg block, 3kg block and tension in the string respectively, then their values are:",
+    "text": "In the shown arrangement if f₁, f₂ and T be the frictional forces on 2 kg block, 3 kg block and tension in the string respectively, then their values are:",
     "options": [
       "2 N, 6 N, 3.2 N",
       "2 N, 6 N, 0 N",
@@ -46760,12 +46760,12 @@
     "year": "MOCK-3",
     "q_number": 26,
     "subject": "Physics",
-    "text": "The position vector of the centre of mass rcm of an asymmetric uniform bar of negligible area of cross section as shown in figure is",
+    "text": "The position vector of the centre of mass rₖₘ of an asymmetric uniform bar of negligible area of cross section as shown in figure is",
     "options": [
-      "y ˆ 13 5 r = Lx + L 8 8 ˆ",
-      "y ˆ 11 3 r = Lx + L 8 8 ˆ",
-      "3 11 r = Lx + Ly ˆ 8 8 ˆ",
-      "5 13 r = Lx + Ly ˆ 8 8 ˆ"
+      "rₖₘ = (13/8)Lₓ + (5/8)Lᵧ",
+      "rₖₘ = (11/8)Lₓ + (3/8)Lᵧ",
+      "r = (11/8)Lₓ + (3/8)Lᵧ",
+      "r = (13/8)Lₓ + (5/8)Lᵧ"
     ],
     "correct_answer": 1,
     "solution": "(1) Sol. COM 5 2 2 2 So, mL m L m X m ( ) + + ( ) = ( ) ( ) ( ) 13 8 L = 2 0 2 and 4 COM L mL m m Y m + × + × = SKC SIR SKC SIR SKC SIR 5 = So, position vector of COM is COM COM COM ˆ ˆ X Y = + r x y 5 ˆ 13 8 ˆ 8 Lx Ly = +",
@@ -46814,12 +46814,12 @@
     "year": "MOCK-3",
     "q_number": 29,
     "subject": "Physics",
-    "text": "Two discs of moments of inertia I1 and I2 about their respective axes, rotating with angular frequencies 1 ω and 2 ωrespectively, are brought into contact face to face with their axes of rotation coincident. The angular frequency of the composite disc will be",
+    "text": "Two discs of moments of inertia I₁ and I₂ about their respective axes, rotating with angular frequencies ω₁ and ω₂ respectively, are brought into contact face to face with their axes of rotation coincident. The angular frequency of the composite disc will be",
     "options": [
-      "1 1 2 2 1 I I I ω+ ω +",
-      "2 1 1 2 1 I I I ω+ ω +",
-      "1 1 2 2 1 I I I ω− ω −",
-      "2 1 1 2 1 I I I ω−ω −"
+      "ω = (I₁ω₁ + I₂ω₂) / (I₁ + I₂)",
+      "ω = (I₂ω₁ + I₁ω₂) / (I₁ + I₂)",
+      "ω = (I₁ω₁ - I₂ω₂) / (I₁ + I₂)",
+      "ω = (I₂ω₁ - I₁ω₂) / (I₁ + I₂)"
     ],
     "correct_answer": 1,
     "solution": "(1) Total initial angular momentum of the two discs is i 1 1 2 I I = ω+ ω the moment of inertia I of the system is 1 I I = + Let ω be the final angular speed of the system. The final angular momentum of the system is f 1 I (I I ) = ω= + ω According to law of conservation of angular momentum, we get i f L L = 1 1 2 2 1 I (I I ) ω+ ω= + ω 1 1 2 2 1 I I I ω+ ω ω= +",
@@ -46870,10 +46870,10 @@
     "subject": "Physics",
     "text": "Four thin rods of same mass M and same length l, form a square as shown in figure. Moment of inertia of this system about an axis through centre O and perpendicular to its plane is",
     "options": [
-      "2 4 M 3 l",
-      "3 l",
-      "6 l",
-      "2 2 M 3 l"
+      "(2/3)Ml²",
+      "(1/3)Ml²",
+      "(1/6)Ml²",
+      "(1/2)Ml²"
     ],
     "correct_answer": 1,
     "solution": "(1) [?U+F049] = 4 2 2 4 M M 12 2 3 [ ] ( ) + = [ ] ( ) ( ) [ ] [ ]",
@@ -47770,10 +47770,10 @@
     "subject": "Chemistry",
     "text": "Which of the following reactions is an example of a redox reaction?",
     "options": [
-      "2 5 6 XeF PF [XeF] PF + − + →",
-      "6 2 4 XeF H O XeOF 2HF + → +",
-      "6 2 2 4 XeF 2H O XeO F 4HF + → +",
-      "4 2 2 6 2 XeF O F XeF O + → +"
+      "2 XeF₆ + PF₅ → [XeF]⁻ + PF₆⁺",
+      "6 XeF₆ + 2 H₂O → XeOF₄ + 2 HF",
+      "6 XeF₆ + 2 H₂O → XeO₂F₄ + 4 HF",
+      "4 XeF₂ + O₂ → XeF₄ + 2 O₂F₂"
     ],
     "correct_answer": 4,
     "solution": "(4) Sol. Step 1. Definition: A redox reaction involves change in oxidation states of atoms due to electron transfer. Step 2. Procedure: Assign oxidation numbers to relevant atoms in reactants and products. Step 3. Option Analysis: Option A : In XeF2, F is − 1 so Xe is + 2; in [XeF]+, Xe remains + 2. In PF5 and PF6–, P remains + 5. No change in oxidation states, hence not redox. Option B: In XeF6, Xe is + 6; in XeOF4, O is − 2 and each F is − 1, total − 6, so Xe is + 6. All oxidation states unchanged, not redox. Option C: In XeF6, Xe is + 6; in XeO2F4, each O is − 2 and each F is − 1, total − 8, so Xe appears + 8. Xe oxidation changes without complementary reduction, overall not a redox reaction. Option D: In XeF4, Xe is + 4; in XeF6, Xe is + 6, so Xe is oxidized. In O2F2, each O is + 1, while in O2 it is 0, so O is reduced. Both oxidation and reduction occur, hence redox. Step 4. Conclusion: Option D is the only redox reaction. SKC SIR SKC SIR SKC SIR",
@@ -47786,11 +47786,11 @@
     "year": "MOCK-3",
     "q_number": 83,
     "subject": "Chemistry",
-    "text": "If 1 M KMnO4 and 1 M K2Cr2O7 solutions can oxidize Fe to Fe in acidic medium, then volume of oxidant required for 1 mol of Fe will be",
+    "text": "If 1 M KMnO₄ and 1 M K₂Cr₂O₇ solutions can oxidize Fe²⁺ to Fe³⁺ in acidic medium, then volume of oxidant required for 1 mol of Fe²⁺ will be",
     "options": [
-      "4 2 2 7 KMnO K Cr O V V >",
-      "4 2 2 7 KMnO K Cr O V V <",
-      "4 2 2 7 KMnO K Cr O V V =",
+      "V(KMnO₄) > V(K₂Cr₂O₇)",
+      "V(KMnO₄) < V(K₂Cr₂O₇)",
+      "V(KMnO₄) = V(K₂Cr₂O₇)",
       "cannot be predicted"
     ],
     "correct_answer": 1,
@@ -49586,12 +49586,12 @@
     "year": "MOCK-4",
     "q_number": 4,
     "subject": "Physics",
-    "text": "Two flasks R and S of volume V1 and V2 contain same gas at pressure P1 and P2 respectively at the same temperature. Pressure of the gas when the flasks R and S are connected by a tube of negligible volume is",
+    "text": "Two flasks R and S of volume V₁ and V₂ contain the same gas at pressure P₁ and P₂ respectively at the same temperature. Pressure of the gas when the flasks R and S are connected by a tube of negligible volume is",
     "options": [
-      "1 1 2 2 1 2 P V P V V V + +",
-      "( ) 1 1 2 2 1 2 P V P V 2 V V + +",
-      "1 2 2 1 1 2 P V P V V V + +",
-      "( )( ) ( ) 1 2 1 2 1 P V V V 2V + +"
+      "P = (P₁V₁ + P₂V₂) / (V₁ + V₂)",
+      "P = (P₁V₁ + P₂V₂) / (2V₁V₂)",
+      "P = (P₁V₂ + P₂V₁) / (V₁ + V₂)",
+      "P = (P₁V₁ + P₂V₂) / (V₁ + V₂)"
     ],
     "correct_answer": 1,
     "solution": "(1) Sol. Number of moles of gas in two flasks are n1 = 1 1 P V RT and n2 = 2 2 P V RT n = n1 + n2 [?U+F05C] P = ( ) 1 2 1 1 2 2 1 2 1 2 n n RT P V P V V V V V + + = + +",
@@ -51116,12 +51116,12 @@
     "year": "MOCK-4",
     "q_number": 89,
     "subject": "Chemistry",
-    "text": "H2 (g) + ½ O2 (g) → H2O(l) Β.Ε. (H – H) = x₁; Β.Ε. (Ο = O) = X2 ; Β.Ε. (Ο – Η) = X3 Heat of vaporisation of water = x4 then ΔHf (heat of formation of liquid water) is:",
+    "text": "H₂(g) + ½ O₂(g) → H₂O(l) Β.Ε. (H – H) = x₁; Β.Ε. (O = O) = x₂; Β.Ε. (O – H) = x₃. Heat of vaporisation of water = x₄ then ΔHf (heat of formation of liquid water) is:",
     "options": [
-      "2 1 3 4 x x x x 2 + − +",
-      "2 3 1 4 x 2x x x 2 − − −",
-      "2 1 3 4 x x 2x x 2 + − −",
-      "2 1 3 4 x x 2x x 2 + − +"
+      "(x₁ + x₂ - x₃ - x₄)",
+      "(x₂ - x₃ - x₁ - x₄)",
+      "(x₁ + x₂ - 2x₃ - x₄)",
+      "(x₁ + x₂ - x₃ + 2x₄)"
     ],
     "correct_answer": 3,
     "solution": "(3) Sol.",
@@ -52882,10 +52882,10 @@
     "subject": "Physics",
     "text": "The mass M shown in the figure oscillates in simple harmonic motion with amplitude A. The amplitude of point P is",
     "options": [
-      "1 2 k A k",
-      "2 1 k A k",
-      "1 1 2 k A k k +",
-      "2 1 2 k A k k +"
+      "A/2",
+      "A/2k",
+      "A/(k₁ + k₂)",
+      "A/(k₁ + k₂)"
     ],
     "correct_answer": 4,
     "solution": "(4) Sol. Here the two springs are in series. Let the mass M be pulled through small distance A towards right hand side. Due to it, let x1 and x2 be the extension in two springs. When two springs are in series. the tension or the force is same for both the springs. So 1 1 2 2 k x k x = or 1 1 2 2 k x x k = Total extension, 1 1 1 2 1 2 1 1 2 2 k x k k A x x x ;A x k k ( ) + = + = + = ( ) ( ) [?U+F05C]Amplitude of point P = extension of spring 2 1 1 2 k A x k k = +",
@@ -56141,9 +56141,9 @@
     "text": "Two thin wire rings each having a radius R are placed at a distance d apart with their axes coinciding. The charges on the two rings are +q and –q. The potential difference between the centers of the rings is",
     "options": [
       "zero",
-      "2 2 0 1 1 4 q R R d πε { } − { } − { }",
-      "2 0 4 qR d πε",
-      "2 2 0 1 1 2 q R R d πε { } − { } + { } 6 μF 5 μF 10 V C1 C2 K 2 μF 4 μF 6 μF 12 V"
+      "−(2qR)/(d) + (1/(4πε₀))",
+      "(2qR)/(d) + (1/(4πε₀))",
+      "−(2qR)/(d) + (1/(2(4πε₀)))"
     ],
     "correct_answer": 4,
     "solution": "",
@@ -56624,12 +56624,12 @@
     "year": "MOCK-6",
     "q_number": 37,
     "subject": "Physics",
-    "text": "A charge Q is distributed over a line of length L. Another point charge q is placed at a distance r from the centre of the line distribution. Then the force experienced by q is + + + + + + L r q Q",
+    "text": "A charge Q is distributed over a line of length L. Another point charge q is placed at a distance r from the centre of the line distribution. Then the force experienced by q is",
     "options": [
-      ") L r( 4 qQ 2 2 0 − ∈ π",
-      ") ) 2 / L ( r( 4 qQ 2 2 0 − ∈ π",
-      "2 0 r 4 qQ ∈ π",
-      "3 0 r 4 qQL ∈ π"
+      "F = (1/(4πε₀)) * (qQ)/(L - r²)",
+      "F = (1/(4πε₀)) * (qQ)/(L² - r²)",
+      "F = (1/(4πε₀)) * (qQ)/(r²)",
+      "F = (3/(4πε₀)) * (qQL)/(r²)"
     ],
     "correct_answer": 2,
     "solution": "",
@@ -59722,8 +59722,8 @@
     "subject": "Physics",
     "text": "An infinitely long straight conductor is bent into the shape as shown in the figure. It carries a current of i ampere and the radius of the circular loop is r metre. Then the magnetic induction at its centre will be –",
     "options": [
-      "( ) 0 2i 1 4 r μ π+ π",
-      "( ) 0 2i 1 4 r μ π− π",
+      "B = μ₀(2i)/(4r) + μ₀(2i)/(4r)π",
+      "B = μ₀(2i)/(4r) - μ₀(2i)/(4r)π",
       "0",
       "∞"
     ],
@@ -59740,10 +59740,10 @@
     "subject": "Physics",
     "text": "The magnetic induction at the centre O in the figure shown is –",
     "options": [
-      "0 1 2 i 1 1 R ( ) μ − ( ) ( )",
-      "0 1 2 i 1 1 R ( ) μ + ( ) ( )",
-      "( ) 0 1 2 i R R 4 μ −",
-      "( ) 0 1 2 i R R 4 μ +"
+      "μ₀(1/2) i R₁⁻(1/1)",
+      "μ₀(1/2) i R₁⁺(1/1)",
+      "(1/2) μ₀ i R₁ R₂⁻/4",
+      "(1/2) μ₀ i R₁ R₂⁺/4"
     ],
     "correct_answer": 1,
     "solution": "(1) In the following figure, magnetic fields at O due to sections 1, 2, 3 and 4 are considered as B1, B2, B3 and B4 respectively. B1 = B3 = 0 0 2 1 i B μ π = · [?U+F0C4] π 0 4 2 i B μ π = · π As |B2| > |B4| So, Bnet = B2 – B4 0 net 1 2 i 1 4 R R ( ) μ → = − [?U+F0C4] ( ) ( ) SKC SIR SKC SIR SKC SIR",
@@ -62456,7 +62456,7 @@
     "year": "MOCK-8",
     "q_number": 1,
     "subject": "Physics",
-    "text": "Paramagnetic and exhibits ionisation isomerism Q [Ti(H2O)5Cl](NO3)2 2 Diamagentic and exhibits cis trans isomerism R [Pt(en)(NH3)Cl]NO3 3 Paramagentic and exhibits cis trans isomerism S [Co(NH3)4(NO3)2]NO3 4 Diamagentic and exhibits ionisation isomerism Code : P Q R S",
+    "text": "Paramagnetic and exhibits ionisation isomerism Q [Ti(H₂O)₅Cl](NO₃)₂; Diamagnetic and exhibits cis-trans isomerism R [Pt(en)(NH₃)Cl](NO₃); Paramagnetic and exhibits cis-trans isomerism S [Co(NH₃)₄(NO₃)₂](NO₃); Diamagnetic and exhibits ionisation isomerism Code: P Q R S",
     "options": [
       "4 2 3 1",
       "3 1 4 2",
@@ -62546,12 +62546,12 @@
     "year": "MOCK-8",
     "q_number": 6,
     "subject": "Physics",
-    "text": "Earth's magnetic field may be supposed to be due to a small bar magnet located at the centre of the earth. If the magnetic field at a point on the magnetic equator is 0.3×10–4 T. Magnet moment of bar magnet is",
+    "text": "Earth's magnetic field may be supposed to be due to a small bar magnet located at the centre of the earth. If the magnetic field at a point on the magnetic equator is 0.3 × 10⁻⁴ T. Magnet moment of bar magnet is",
     "options": [
-      "8 2 7.8 10 amp m × ×",
-      "22 2 7.8 10 amp m × ×",
-      "22 2 6.4 10 amp m × ×",
-      "6.4 × 108 amp×m2"
+      "8.27 × 10² amp·m²",
+      "7.8 × 10²² amp·m²",
+      "6.4 × 10²² amp·m²",
+      "6.4 × 10⁸ amp·m²"
     ],
     "correct_answer": 2,
     "solution": "(2) Sol. When a magnet is freely suspended in earth’s magnetic field, it's north pole points north, so the magnetic field of the earth may be suppose to be due to a magnetic dipole with it's south pole towards north and as equatorial point is on the broad side on position of the dipole. 3 6 7 4 3 0 e ) 10 4.6 ( M 10 10 3.0 r M . × × × = × → π μ = − − 22 10 8.7 M × = → A m2.",
@@ -62746,9 +62746,9 @@
     "subject": "Physics",
     "text": "The mean electric energy density between plates of a charged capacitor:",
     "options": [
-      "2 2 0 q ε",
-      "2 0 q ε",
-      "2 0 q 2 A ε",
+      "u = (1/2) ε₀ E²",
+      "u = (1/2) (q²/ε₀ A)",
+      "u = (1/2) (q²/(2Aε₀))",
       "None of these"
     ],
     "correct_answer": 1,
@@ -62762,12 +62762,12 @@
     "year": "MOCK-8",
     "q_number": 18,
     "subject": "Physics",
-    "text": "Two inductors L1 and L2 are connected in parallel and a time varying current i flows as shown. The ratio of currents i1/i2 at any time t is",
+    "text": "Two inductors L₁ and L₂ are connected in parallel and a time varying current i flows as shown. The ratio of currents i₁/i₂ at any time t is",
     "options": [
-      "L1/L2",
-      "L2/L1",
-      "2 1 2 1 (L + L )",
-      "2 2 2 1 (L + L )"
+      "L₁/L₂",
+      "L₂/L₁",
+      "L₁/(L₁ + L₂)",
+      "L₂/(L₁ + L₂)"
     ],
     "correct_answer": 2,
     "solution": "(2) Sol. L1 1 di dt = 2 2 di L dt or L1di1 = L2di2 or L1i1 = L2i2 [?U+F05C] 1 2 i i = 2 L",
@@ -63158,12 +63158,12 @@
     "year": "MOCK-8",
     "q_number": 40,
     "subject": "Physics",
-    "text": "A sinusoidal voltage Vosinωt is applied across a series combination of resistance R and inductor L. The amplitude of the current in the circuit is",
+    "text": "A sinusoidal voltage V₀ sin(ωt) is applied across a series combination of resistance R and inductor L. The amplitude of the current in the circuit is",
     "options": [
-      "+ ω o 2 2 2 V R L",
-      "−ω o 2 2 2 V R L",
-      "+ ω o 2 2 2 V R L sinωt",
-      "Vo/R"
+      "V₀/√(R² + (ωL)²)",
+      "−V₀/√(R² + (ωL)²)",
+      "V₀/√(R² + (ωL)²) sin(ωt)",
+      "V₀/R"
     ],
     "correct_answer": 1,
     "solution": "(1) Sol. Impedance of the circuit = 2 2 R ω + Amplitude of voltage = Vo [?U+F05C] Amplitude of current = 2 2 2 o L R V ω + , Hence (1) is correct.",
@@ -63680,12 +63680,12 @@
     "year": "MOCK-8",
     "q_number": 69,
     "subject": "Chemistry",
-    "text": "Which of the following are basic oxides? 2 7 2 3 2 5 2 3 Mn O ,V O ,V O ,CrO,Cr O",
+    "text": "Which of the following are basic oxides? Mn₂O₇, V₂O₃, V₂O₅, CrO, Cr₂O₃",
     "options": [
-      "2 7 Mn O and 2 3 V O",
-      "2 3 V O and CrO",
-      "CrO and 2 3 Cr O",
-      "2 5 V O and 2 3 V O"
+      "Mn₂O₇ and V₂O₃",
+      "V₂O₃ and CrO",
+      "CrO and Cr₂O₃",
+      "V₂O₅ and V₂O₃"
     ],
     "correct_answer": 2,
     "solution": "(2) Sol. In case of transition metal oxides, the oxides with metals in lower oxidation states are basic in nature. O.S. of Mn in 2 7 2 3 Mn O 7;VinV O 3;V = + = + in 2 5 V O = +5; cr in CrO 2 3 2;CrinCr O 3 = + = + Thus in 2 3 V O , CrO and 2 3 Cr O 3 = + thus in 2 3 V O CrO and 2 3 Cr O is amphoteric in nature hence 2 3 V O and CrO are basic in nature",
@@ -66416,12 +66416,12 @@
     "year": "MOCK-9",
     "q_number": 41,
     "subject": "Physics",
-    "text": "A ray of light is incident on the surface of a glass plate at an angle of incidence equal to Brewster’s angel φ. If μ represents the refractive index of glass with respect to air, then the angle between the reflected and the refracted rays is",
+    "text": "A ray of light is incident on the surface of a glass plate at an angle of incidence equal to Brewster’s angle φ. If μ represents the refractive index of glass with respect to air, then the angle between the reflected and the refracted rays is",
     "options": [
       "90° + φ",
-      "sin–1(μ cos φ)",
+      "sin⁻¹(μ cos φ)",
       "90°",
-      "1 sin 90 sin−( ) φ °− ( ) μ ( )"
+      "1/sin(90° - φ) μ"
     ],
     "correct_answer": 3,
     "solution": "(3) Sol. [?U+F051] ip = φ, therefore, angle between reflected and refracted rays is 90°",
@@ -66902,7 +66902,7 @@
     "year": "MOCK-9",
     "q_number": 68,
     "subject": "Chemistry",
-    "text": "Match the species in Column I with corresponding reactants in Column II and choose the correct option. Column I (Reaction) Column II (Name) A Gattermann reaction 1 C6H5COOAg ⋅ Br2KCl4/ Heat B Hunsdiecker reaction 2 Hg2 F2/Δ C Swarts reaction 3 C6H5 N2 +Cl−, CuCl/ HCl, Heat D Sandmeyer reaction 4 C6H5 N2 +Cl−, Cu/HCl, Heat A B C D",
+    "text": "Match the species in Column I with corresponding reactants in Column II and choose the correct option. Column I (Reaction) Column II (Name) A Gattermann reaction 1 C₆H₅COOAg ⋅ Br₂/KCl/Heat B Hunsdiecker reaction 2 Hg₂F₂/Δ C Swarts reaction 3 C₆H₅N₂ + Cl⁻, CuCl/HCl, Heat D Sandmeyer reaction 4 C₆H₅N₂ + Cl⁻, Cu/HCl, Heat",
     "options": [
       "1 2 3 4",
       "4 1 2 3",
