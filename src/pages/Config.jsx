@@ -1,60 +1,37 @@
 import { useState, useMemo, useEffect, useRef } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
-import { questions, metadata } from '../data/questions.js'
+import { useQuestions } from '../context/QuestionsContext.jsx'
 import { useQuiz } from '../context/QuizContext.jsx'
 
-const ALL_YEARS       = metadata.years          // [2016 … 2025]
 const ALL_SUBJECTS    = ['Physics', 'Chemistry', 'Biology']
 const ALL_DIFFICULTIES = ['easy', 'medium', 'hard']
 
-// ─── Presets ──────────────────────────────────────────────────────────────────
-
-const PRESETS = {
-  mock: {
-    subjects:     ALL_SUBJECTS,
-    years:        ALL_YEARS,
-    topic:        '',
-    difficulties: ALL_DIFFICULTIES,
-    hideDeleted:  true,
-    questionCount: 180,
-    timerEnabled: true,
-    timerMinutes: 180,
-    mode: 'mock',
-  },
-  topicDrill: {
-    subjects:     ALL_SUBJECTS,
-    years:        ALL_YEARS,
-    topic:        '',           // user must pick a topic
-    difficulties: ALL_DIFFICULTIES,
-    hideDeleted:  true,
-    questionCount: 20,
-    timerEnabled: false,
-    timerMinutes: 60,
-    mode: 'practice',
-  },
-  subjectRevision: {
-    subjects:     ['Physics'], // user adjusts subject
-    years:        ALL_YEARS,
-    topic:        '',
-    difficulties: ALL_DIFFICULTIES,
-    hideDeleted:  true,
-    questionCount: 45,
-    timerEnabled: false,
-    timerMinutes: 60,
-    mode: 'practice',
-  },
+function makePresets(allYears) {
+  return {
+    mock: {
+      subjects: ALL_SUBJECTS, years: allYears, topic: '',
+      difficulties: ALL_DIFFICULTIES, hideDeleted: true,
+      questionCount: 180, timerEnabled: true, timerMinutes: 180, mode: 'mock',
+    },
+    topicDrill: {
+      subjects: ALL_SUBJECTS, years: allYears, topic: '',
+      difficulties: ALL_DIFFICULTIES, hideDeleted: true,
+      questionCount: 20, timerEnabled: false, timerMinutes: 60, mode: 'practice',
+    },
+    subjectRevision: {
+      subjects: ['Physics'], years: allYears, topic: '',
+      difficulties: ALL_DIFFICULTIES, hideDeleted: true,
+      questionCount: 45, timerEnabled: false, timerMinutes: 60, mode: 'practice',
+    },
+  }
 }
 
-const DEFAULT_FILTERS = {
-  subjects:     ALL_SUBJECTS,
-  years:        ALL_YEARS,
-  topic:        '',
-  difficulties: ALL_DIFFICULTIES,
-  hideDeleted:  true,
-  questionCount: 45,
-  timerEnabled: false,
-  timerMinutes: 60,
-  mode:         'practice',
+function makeDefaults(allYears) {
+  return {
+    subjects: ALL_SUBJECTS, years: allYears, topic: '',
+    difficulties: ALL_DIFFICULTIES, hideDeleted: true,
+    questionCount: 45, timerEnabled: false, timerMinutes: 60, mode: 'practice',
+  }
 }
 
 // ─── Shuffle ──────────────────────────────────────────────────────────────────
@@ -89,12 +66,22 @@ export default function Config() {
   const location   = useLocation()
   const { dispatch } = useQuiz()
   const topicRef   = useRef(null)
+  const { questions, metadata, loading } = useQuestions()
+
+  const ALL_YEARS = metadata?.years ?? []
+  const PRESETS   = useMemo(() => makePresets(ALL_YEARS), [ALL_YEARS])  // eslint-disable-line react-hooks/exhaustive-deps
 
   const [f, setF] = useState(() => {
-    // "Start mock test" from Home passes { state: { mode: 'mock' } }
-    if (location.state?.mode === 'mock') return { ...PRESETS.mock }
-    return { ...DEFAULT_FILTERS }
+    // Initial state uses empty years — will be patched once metadata loads
+    if (location.state?.mode === 'mock') return makePresets([]).mock
+    return makeDefaults([])
   })
+
+  // Once questions load, patch years into the filter (runs once)
+  useEffect(() => {
+    if (!metadata) return
+    setF(prev => ({ ...prev, years: prev.years.length === 0 ? ALL_YEARS : prev.years }))
+  }, [metadata])  // eslint-disable-line react-hooks/exhaustive-deps
 
   // Available topics scoped to selected subjects
   const availableTopics = useMemo(() => {
@@ -112,7 +99,7 @@ export default function Config() {
     }
   }, [availableTopics, f.topic])
 
-  const deletedCount = useMemo(() => questions.filter(q => q.is_deleted_topic).length, [])
+  const deletedCount = useMemo(() => questions.filter(q => q.is_deleted_topic).length, [questions])
 
   // Live filtered pool
   const filtered = useMemo(() => applyFilters(f), [f])
@@ -140,7 +127,7 @@ export default function Config() {
   }
 
   function applyPreset(name) {
-    setF({ ...PRESETS[name] })
+    setF({ ...makePresets(ALL_YEARS)[name] })
     if (name === 'topicDrill') {
       // Scroll/focus topic selector so user knows to pick one
       setTimeout(() => topicRef.current?.focus(), 50)
@@ -163,6 +150,12 @@ export default function Config() {
   const canStart = poolSize > 0
 
   // ── Render ──
+
+  if (loading) return (
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <p className="text-gray-400 text-sm">Loading questions…</p>
+    </div>
+  )
 
   return (
     <div className="min-h-screen bg-gray-50 py-8 px-4">

@@ -1,41 +1,38 @@
-import raw from '../../public/questions.json'
+// Questions are loaded at runtime via fetch (not bundled).
+// Use QuestionsContext / useQuestions() in components.
 
-// ─── Primary export ──────────────────────────────────────────────────────────
+export async function loadQuestions() {
+  const res = await fetch(`${import.meta.env.BASE_URL}questions.json`)
+  if (!res.ok) throw new Error(`Failed to load questions.json: ${res.status}`)
+  return res.json()
+}
 
-export const questions = raw
+export function computeMetadata(raw) {
+  const byYear = {}
+  for (const q of raw) (byYear[q.year] ??= []).push(q)
 
-// ─── Fast lookup by year ─────────────────────────────────────────────────────
+  // Preserve original types: numeric years stay numbers, "MOCK-N" stays string.
+  // Numbers sort before strings so PYQ years come first.
+  const years = Object.keys(byYear)
+    .map(k => { const n = Number(k); return isNaN(n) ? k : n })
+    .sort((a, b) => {
+      if (typeof a === 'number' && typeof b === 'number') return a - b
+      if (typeof a === 'number') return -1
+      if (typeof b === 'number') return 1
+      return String(a).localeCompare(String(b))
+    })
 
-export const questionsByYear = raw.reduce((acc, q) => {
-  ;(acc[q.year] ??= []).push(q)
-  return acc
-}, {})
+  const subjects = [...new Set(raw.map(q => q.subject))].sort()
+  const topics   = [...new Set(raw.map(q => q.topic).filter(Boolean))].sort()
 
-// ─── Pre-computed metadata ───────────────────────────────────────────────────
-// Computed once at module load; safe to reference in any component without
-// wrapping in useMemo.
+  const difficultyCounts = raw.reduce(
+    (acc, q) => {
+      const d = q.difficulty
+      if (d === 'easy' || d === 'medium' || d === 'hard') acc[d]++
+      return acc
+    },
+    { easy: 0, medium: 0, hard: 0 },
+  )
 
-const years = Object.keys(questionsByYear).map(Number).sort((a, b) => a - b)
-
-const subjects = [...new Set(raw.map(q => q.subject))].sort()
-
-const topics = [...new Set(raw.map(q => q.topic).filter(Boolean))].sort()
-
-// difficulty is not present in the current schema; counts will be 0 unless
-// a future extraction pass adds the field.
-const difficultyCounts = raw.reduce(
-  (acc, q) => {
-    const d = q.difficulty
-    if (d === 'easy' || d === 'medium' || d === 'hard') acc[d]++
-    return acc
-  },
-  { easy: 0, medium: 0, hard: 0 },
-)
-
-export const metadata = {
-  totalCount: raw.length,
-  years,
-  subjects,
-  topics,
-  difficultyCounts,
+  return { totalCount: raw.length, years, subjects, topics, difficultyCounts }
 }

@@ -1,4 +1,5 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
+import { QuestionsProvider } from './context/QuestionsContext.jsx'
 import { QuizProvider } from './context/QuizContext.jsx'
 import Home from './pages/Home.jsx'
 import Config from './pages/Config.jsx'
@@ -7,6 +8,7 @@ import Results from './pages/Results.jsx'
 
 export default function App() {
   return (
+    <QuestionsProvider>
     <QuizProvider>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -16,5 +18,6 @@ export default function App() {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </QuizProvider>
+    </QuestionsProvider>
   )
 }

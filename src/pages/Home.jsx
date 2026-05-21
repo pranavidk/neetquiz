@@ -1,9 +1,6 @@
 import { useNavigate } from 'react-router-dom'
-import { metadata } from '../data/questions.js'
+import { useQuestions } from '../context/QuestionsContext.jsx'
 import { useLocalStorage } from '../hooks/useLocalStorage.js'
-
-const { totalCount, years, topics } = metadata
-const yearRange = `${years[0]}–${years[years.length - 1]}`
 
 function formatDate(iso) {
   return new Date(iso).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })
@@ -11,8 +8,14 @@ function formatDate(iso) {
 
 export default function Home() {
   const navigate = useNavigate()
+  const { metadata, loading } = useQuestions()
   const [attempts] = useLocalStorage('neet_attempts', [])
   const recent = attempts.slice(-3).reverse()
+
+  const pyqYears = (metadata?.years ?? []).filter(y => typeof y === 'number')
+  const yearRange = pyqYears.length
+    ? `${pyqYears[0]}–${pyqYears[pyqYears.length - 1]}`
+    : '…'
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-4 py-12">
@@ -28,9 +31,9 @@ export default function Home() {
 
         {/* Stats */}
         <div className="grid grid-cols-3 gap-3">
-          <StatCard value={totalCount} label="Questions" />
+          <StatCard value={loading ? '…' : metadata.totalCount} label="Questions" />
           <StatCard value={yearRange} label="Years" />
-          <StatCard value={topics.length} label="Topics" />
+          <StatCard value={loading ? '…' : metadata.topics.length} label="Topics" />
         </div>
 
         {/* Actions */}
