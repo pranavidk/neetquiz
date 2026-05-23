@@ -5,8 +5,14 @@ import { useQuiz } from '../context/QuizContext.jsx'
 import { calcScore } from '../context/QuizContext.jsx'
 import { useLocalStorage } from '../hooks/useLocalStorage.js'
 import ReviewCard from '../components/ReviewCard.jsx'
-import { supabase } from '../lib/supabase.js'
+import { hasSupabaseConfig, supabase } from '../lib/supabase.js'
 import { buildReportPDF, buildReportText } from '../lib/generateReport.js'
+
+const hasEmailConfig = Boolean(
+  import.meta.env.VITE_EMAILJS_SERVICE_ID
+    && import.meta.env.VITE_EMAILJS_TEMPLATE_ID
+    && import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+)
 
 function formatDuration(rawMs) {
   const ms  = Math.max(0, rawMs)
@@ -59,20 +65,22 @@ export default function Results() {
     const years = [...new Set(questions.map(q => q.year).filter(Boolean))]
     const year  = years.length === 1 ? years[0] : null
 
-    supabase.from('attempts').insert({
-      year,
-      score:            score.total,
-      max_score:        score.maxScore,
-      correct:          score.correct,
-      wrong:            score.wrong,
-      unanswered:       score.unanswered,
-      total_questions:  questions.length,
-      mode,
-      duration_seconds: Math.round(duration / 1000),
-      subject_breakdown: score.bySubject,
-    }).then(({ error }) => {
-      if (error) console.error('Supabase insert failed:', error.message)
-    })
+    if (hasSupabaseConfig) {
+      supabase.from('attempts').insert({
+        year,
+        score:            score.total,
+        max_score:        score.maxScore,
+        correct:          score.correct,
+        wrong:            score.wrong,
+        unanswered:       score.unanswered,
+        total_questions:  questions.length,
+        mode,
+        duration_seconds: Math.round(duration / 1000),
+        subject_breakdown: score.bySubject,
+      }).then(({ error }) => {
+        if (error) console.error('Supabase insert failed:', error.message)
+      })
+    }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []) // intentionally empty — run once on mount only
 
@@ -98,6 +106,12 @@ export default function Results() {
   }
 
   async function handleEmailReport() {
+    if (!hasEmailConfig) {
+      setEmailStatus('error')
+      console.error('EmailJS env vars are missing in this deployment.')
+      return
+    }
+
     setEmailStatus('sending')
     try {
       const body = buildReportText({ questions, answers, score, duration, mode, startTime })

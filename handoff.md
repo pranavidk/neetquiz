@@ -50,8 +50,8 @@ src/
 
 ### Infrastructure
 - **Vercel** deployment, SPA rewrites via `vercel.json`
-- **Supabase** project `tzktrmdanqvmsgioahwj` — `attempts` table (id, date, score, total, mode, duration_seconds, questions jsonb)
-- **EmailJS** service `service_14sz74g`, template `template_sv5ytal` — sends plain-text report to user's email
+- **Supabase** — `attempts` table (id, date, score, total, mode, duration_seconds, questions jsonb)
+- **EmailJS** — sends plain-text report to user's email
 - Secrets in `.env.local` (gitignored); must also be set in Vercel environment variables for production
 
 ### Git state

@@ -4,4 +4,6 @@ __pycache__/
 node_modules/
 dist/
 .claude/
-.env.local
+.env
+.env.*
+!.env.example

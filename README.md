@@ -33,7 +33,26 @@ The `public/images/` copy exists because symlinks break on Windows and GitHub Pa
 
 NEET formula: **+4** correct · **−1** wrong · **0** unattempted/canceled
 
-## Deployment (GitHub Pages)
+## Deployment
+
+### Vercel
+
+Use the Vite preset, with:
+
+- Build command: `npm run build`
+- Output directory: `dist`
+
+Add these Environment Variables in Vercel for Production, Preview, and Development:
+
+- `VITE_SUPABASE_URL`
+- `VITE_SUPABASE_ANON_KEY`
+- `VITE_EMAILJS_SERVICE_ID`
+- `VITE_EMAILJS_TEMPLATE_ID`
+- `VITE_EMAILJS_PUBLIC_KEY`
+
+The app will still load if Supabase or EmailJS variables are missing, but those integrations will be skipped or show an error until the variables are set.
+
+### GitHub Pages
 
 ```bash
 npm run build
