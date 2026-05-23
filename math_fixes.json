@@ -1,0 +1,750 @@
+{
+  "2025_q15": {
+    "text": "In some appropriate units, time (t) and position (x) relation of a moving particle is given by t = x² + x. The acceleration of the particle is",
+    "options": [
+      "−(2x + 1)³",
+      "−(2x + 1)²",
+      "(2x + 1)³",
+      "(2x + 1)²"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "In some appropriate units, time (t) and position (x) relation of a moving particle is given by t = x 2 + x. The acceleration of the particle is",
+    "original_options": [
+      "( ) − + 3 2 x 2",
+      "( ) − + 3 2 2x 1",
+      "( ) + + 3 2 x 1",
+      "+ + 2 2x 1"
+    ]
+  },
+  "2024_q59": {
+    "text": "In which of the following equilibria, Kp and Kc are NOT equal?",
+    "options": [
+      "PCl₅(g) ⇌ PCl₃(g) + Cl₂(g)",
+      "H₂(g) + I₂(g) ⇌ 2HI(g)",
+      "2CO(g) + 2H₂O(g) ⇌ 2CO₂(g) + 2H₂(g)",
+      "2BrCl(g) ⇌ Br₂(g) + Cl₂(g)"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "In which of the following equilibria, Kp and Kc are NOT equal ?",
+    "original_options": [
+      "5(g) 3(g) 2(g) PCl PCl Cl + °",
+      "2(g) 2(g) (g) H I 2HI + °",
+      "(g) 2 (g) 2(g) 2(g) CO H O CO H + + °",
+      "(g) 2(g) 2(g) 2BrCl Br Cl + °"
+    ]
+  },
+  "2023_q16": {
+    "text": "Light travels a distance x in time t₁ in air and 10x in time t₂ in another denser medium. What is the critical angle for this medium?",
+    "options": [
+      "sinθₐ = t₁/(10t₂)",
+      "sinθₐ = t₁/(t₂/10)",
+      "sinθₐ = t₁/(10t₂)",
+      "sinθₐ = t₁/t₂"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "Light travels a distance x in time t1 in air and 10x in time t2 in another denser medium. What is the critical angle for this medium ?",
+    "original_options": [
+      "1 2 1 10t sin t −",
+      "1 1 2 t sin 10t −",
+      "1 1 2 10t sin t −",
+      "1 2 1 t sin t −"
+    ]
+  },
+  "2023_q98": {
+    "text": "Which complex compound is most stable?",
+    "options": [
+      "Co(NO₃)₃",
+      "CoCl₂(en)NO₂",
+      "Co(NH₃)₄SO₃",
+      "Co(NH₃)₂(H₂O)₄BrNO₂"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "Which complex compound is most stable?",
+    "original_options": [
+      "( ) ( ) 3 3 3 3 Co NH NO",
+      "2 2 3 CoCl (en) NO",
+      "( ) ( ) 3 4 6 3 2 Co NH SO",
+      "( ) ( ) ( ) 3 2 3 4 2 Co NH H O Br NO"
+    ]
+  },
+  "2022_q34": {
+    "text": "The ratio of the distances travelled by a freely falling body in the 1st, 2nd, 3rd and 4th second:",
+    "options": [
+      "1 : 4 : 9 : 16",
+      "1 : 3 : 5 : 7",
+      "1 : 1 : 1 : 1",
+      "1 : 2 : 3 : 4"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "The ratio of the distances travelled by a freely falling body in the 1 st, 2 nd, 3 rd and 4 th second :",
+    "original_options": [
+      "1 : 4 : 9 : 16",
+      "1 : 3 : 5 : 7",
+      "1 : 1 : 1 : 1",
+      "1 : 2 : 3 : 4"
+    ]
+  },
+  "2021_q30": {
+    "text": "A parallel plate capacitor has a uniform electric field 'E' in the space between the plates. If the distance between the plates is 'd' and the area of each plate is 'A', the energy stored in the capacitor is : (ε₀ = permittivity of free space)",
+    "options": [
+      "ε₀E²A/2",
+      "ε₀EAd",
+      "ε₀E²Ad/2",
+      "ε₀EAd/2"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "A parallel plate capacitor has a uniform electric field 'E' → in the space between the plates. If the distance between the plates is 'd' and the area of each plate is 'A', the energy stored in the capacitor is : (ε0 = permittivity of free space)",
+    "original_options": [
+      "2 0 2 ε",
+      "ε0EAd",
+      "2 0 1 E Ad 2 ε",
+      "2 0 E Ad ε"
+    ]
+  },
+  "2021_q50": {
+    "text": "A particle moving in a circle of radius R with a uniform speed takes a time T to complete one revolution. If this particle were projected with the same speed at an angle 'θ' to the horizontal, the maximum height attained by it equals 4R. The angle of projection, θ, is then given by:",
+    "options": [
+      "θ = (1/2) gT cos(π/2 - R)",
+      "θ = (1/2) cos(π - gT)",
+      "θ = (1/2) sin(π - gT)",
+      "θ = (1/2) (2gT sin(R) - π)"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "A particle moving in a circle of radius R with a uniform speed takes a time T to complete one revolution. If this particle were projected with the same speed at an angle 'θ' to the horizontal, the maximum height attained by it equals 4R. The angle of projection, θ, is then given by :",
+    "original_options": [
+      "1 2 2 1 2 gT cos R − θ = π",
+      "1 2 2 1 cos gT − π θ =",
+      "1 2 2 1 sin gT − π θ =",
+      "1 2 2 1 2 2gT sin R − θ = π E 155 Section-A (Chemistry)"
+    ]
+  },
+  "2020_q23": {
+    "text": "The mean free path for a gas, with molecular diameter d and number density n can be expressed as :",
+    "options": [
+      "λ = 2/(√2 n d π)",
+      "λ = 1/(√2 n d π)",
+      "λ = 2/(n d π)",
+      "λ = 2√2/(n d π)"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "The mean free path for a gas, with molecular diameter d and number density n can be expressed as :",
+    "original_options": [
+      "2 2 2 1 2 n d π",
+      "1 2 n d π",
+      "2 1 2 n d π",
+      "2 2 1 2 n d π"
+    ]
+  },
+  "2019_q89": {
+    "text": "What is the correct electronic configuration of the central atom in K₄[Fe(CN)₆] based on crystal field theory?",
+    "options": [
+      "4 ₂g ₂g tₑ",
+      "6 ₀ ₂g ₁g tₑ",
+      "3 ₃ ₂ e t",
+      "4 ₂ ₂ e t"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "What is the correct electronic configuration of the central atom in K4[Fe(CN)6] based on crystal field theory?",
+    "original_options": [
+      "4 2 2g g t e",
+      "6 0 2g g t e",
+      "3 3 2 e t",
+      "4 2 2 e t"
+    ]
+  },
+  "2018_q23": {
+    "text": "An electron of mass m with an initial velocity V₀ → enters an electric field E₀ → = -E₀ (E₀ = constant > 0) at t = 0. If λ₀ is its de-Broglie wavelength initially, then its de-Broglie wavelength at time t is :-",
+    "options": [
+      "λ₀ + (eE₀t)/(mV₀)",
+      "λ₀ + (eE₀t)/(mV₀)",
+      "λ₀t",
+      "λ₀"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "An electron of mass m with an initial velocity 0 0 ˆ V V i(V 0) → = > enters an electric field 0ˆ E E i → = − (E0 = constant >0) at t = 0. If λ0 is its de-Broglie wavelength initially, then its de-Broglie wavelength at time t is :-",
+    "original_options": [
+      "0 0 0 eE 1 t mV λ +",
+      "0 0 0 eE 1 t mV λ +",
+      "λ0t",
+      "λ0"
+    ]
+  },
+  "2017_q5": {
+    "text": "A physical quantity of the dimensions of length that can be formed out of c, G and e/(4πε) is [c is velocity of light, G is universal constant of gravitation and e is charge]:",
+    "options": [
+      "(1/2) * (e² * c) / (G * 4πε)",
+      "(1/2) * (e² * 1) / (G * 4cπε)",
+      "(2 * e * G) / (c * 4πε)",
+      "(1/2) * (e² * 1) / (G * 4cπε)"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "A physical quantity of the dimensions of length that can be formed out of c, G and 2 0 e 4πε is [c is velocity of light, G is universal constant of gravitation and e is charge] :-",
+    "original_options": [
+      "1/2 2 2 0 e c G 4 πε",
+      "1/2 2 2 0 1 e G4 c πε",
+      "2 0 1 e G c 4πε",
+      "1/2 2 2 0 1 e G 4 c πε"
+    ]
+  },
+  "2017_q16": {
+    "text": "Preeti reached the metro station and found that the escalator was not working. She walked up the stationary escalator in time t₁. On other days, if she remains stationary on the moving escalator, then the escalator takes her up in time t₂. The time taken by her to walk up on the moving escalator will be",
+    "options": [
+      "t₁ - t₂",
+      "t₁ + t₂",
+      "t₁ – t₂",
+      "t₁ + t₂/2"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "Preeti reached the metro station and found that the escalator was not working. She walked up the stationary escalator in time t1. On other days, if she remains stationary on the moving escalator, then the escalator takes her up in time t2. The time taken by her to walk up on the moving escalator will be",
+    "original_options": [
+      "1 2 2 1 t t t t −",
+      "1 2 2 1 t t t t +",
+      "t1 – t2",
+      "1 2 t t 2 +"
+    ]
+  },
+  "2017_q37": {
+    "text": "Two discs of same moment of inertia rotating about their regular axis passing through centre and perpendicular to the plane of disc with angular velocities ω₁ and ω₂. They are brought into contact face to face coinciding the axis of rotation. The expression for loss of energy during this process is:",
+    "options": [
+      "(1/4) I (ω₁² - ω₂²)",
+      "(1/2) I (ω₁² - ω₂²)",
+      "(1/8) (ω₁² - ω₂²)",
+      "(1/2) I (ω₁² + ω₂²)"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "Two discs of same moment of inertia rotating about their regular axis passing through centre and perpendicular to the plane of disc with angular velocities ω1 and ω2. They are brought into contact face to face coinciding the axis of rotation. The expression for loss of energy during this process is:-",
+    "original_options": [
+      "( ) 2 1 2 1 I 4 ω −ω",
+      "( ) 2 1 2 I ω −ω",
+      "( ) 2 1 8 ω −ω",
+      "( ) 2 1 2 1 I 2 ω + ω"
+    ]
+  },
+  "2016_q2": {
+    "text": "A square loop ABCD carrying a current i, is placed near and coplanar with a long straight conductor XY carrying a current I, the net force on the loop will be :-",
+    "options": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "A square loop ABCD carrying a current i, is placed near and coplanar with a long straight conductor XY carrying a current I, the net force on the loop will be :-",
+    "original_options": [
+      "0 2 Ii 3 µ π",
+      "0Ii 2 µ π",
+      "0 2 IiL 3 µ π",
+      "0IiL 2 µ π"
+    ]
+  },
+  "2016_q10": {
+    "text": "A uniform rope of length L and mass m₁ hangs vertically from a rigid support. A block of mass m₂ is attached to the free end of the rope. A transverse pulse of wavelength λ₁ is produced at the lower end of the rope. The wavelength of the pulse when it reaches the top of the rope is λ₂. The ratio λ₂/λ₁ is :",
+    "options": [
+      "1",
+      "2(m₁ + m₂)/m₂",
+      "2m₂/m₁",
+      "1(m₁ + m₂)/m₁"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "A uniform rope of length L and mass m1 hangs vertically from a rigid support. A block of mass m2 is attached to the free end of the rope. A transverse pulse of wavelength λ1 is produced at the lower end of the rope. The wavelength of the pulse when it reaches the top of the rope is λ2. The ratio λ2/λ1 is :",
+    "original_options": [
+      "1 2 m m",
+      "1 2 2 m m m +",
+      "2 1 m m",
+      "1 2 1 m m m + NEET(I) - 2016"
+    ]
+  },
+  "mock1_q20": {
+    "text": "If a ball is thrown vertically upwards with speed ‘u’, the distance covered during the last ‘t’ seconds of its ascent is:",
+    "options": [
+      "ut",
+      "u t - (1/2) g t²",
+      "(1/2) g t²",
+      "(u + g t)t"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "If a ball is thrown vertically upwards with speed ‘u’, the distance covered during the last ‘t’ seconds of its ascent is:",
+    "original_options": [
+      "ut",
+      "2 1 ut gt 2 −",
+      "2 1 gt 2",
+      "(u + gt)t"
+    ]
+  },
+  "mock1_q38": {
+    "text": "Water drops fall at regular intervals from a roof. At an instant when a drop is about to leave the roof, the separations between 3 successive drops below the roof are in the ratio:",
+    "options": [
+      "1 : 2 : 3",
+      "1 : 4 : 9",
+      "1 : 3 : 5",
+      "1 : 5 : 13"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "Water drops fall at regular intervals from a roof. At an instant when a drop is about to leave the roof, the separations between 3 successive drops below the roof are in the ratio:",
+    "original_options": [
+      "1 : 2 : 3",
+      "1 : 4 : 9",
+      "1 : 3 : 5",
+      "1 : 5 : 13"
+    ]
+  },
+  "mock1_q45": {
+    "text": "Vectors A and B include an angle α between them. If (A + B) and (A – B), respectively subtend angles θ₁ and θ₂ with A, then (tan θ₁ – tan θ₂) is:",
+    "options": [
+      "2B cos²α/(A – B cosα)",
+      "–2B cos²α/(A – B cosα)",
+      "–2B sin²α/(A – B cosα)",
+      "2B sin²α/(A – B cosα)"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "Vectors A and B include an angle α between them. If (A + B) and (A – B), respectively subtend angles θ1 and θ2 with A, then (tan θ1 – tan θ2) is:",
+    "original_options": [
+      "2 2 2 2 B cos2 A – B cos α α",
+      "2 2 2 2 –B cos2 A – B cos α α",
+      "2 2 2 2 –B sin 2 A – B cos α α",
+      "2 2 2 2 B sin 2 A – B cos α αCHEMISTRY"
+    ]
+  },
+  "mock1_q46": {
+    "text": "How many moles of electrons weigh 10 g?",
+    "options": [
+      "6 × 10²³",
+      "31/10 × 9.1",
+      "6 × 10⁻³/9.1",
+      "8 × 10⁻⁶/9.1"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "How many moles of electron weight 10 g.",
+    "original_options": [
+      "6 × 1023",
+      "31 10 9.1",
+      "6 10 9.1 6 ×",
+      "8 10 6 9.1 ×"
+    ]
+  },
+  "mock1_q55": {
+    "text": "Which of the following set of quantum numbers is correct for an electron in 4f orbital? n, l, mₗ, s",
+    "options": [
+      "4, 3, 0, +1/2",
+      "4, 3, -3, -1/2",
+      "4, 3, 0, +1/2",
+      "4, 3, -2, +1/2"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "Which of the following set of quantum number is correct for an electron in 4f orbital? n λ m S",
+    "original_options": [
+      "4 3 4 +1/2",
+      "4 4  –4 –1/2",
+      "4 3  1 +1/2",
+      "4 2  –2 +1/2"
+    ]
+  },
+  "mock2_q3": {
+    "text": "A uniform rope of length λ lies on a table. If the coefficient of friction is μ, then the maximum length λ₁ of the part of this rope which can overhang from the edge of the table without sliding down is",
+    "options": [
+      "λ/μ",
+      "λ/(1 + μ)",
+      "λ/(1 + μ)",
+      "λ/(1 - μ)"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "A uniform rope of length λ lies on a table. If the coefficient of friction is μ, then the maximum length λ1 of the part of this rope which can overhang from the edge of the table without sliding down is",
+    "original_options": [
+      "1 μ",
+      "1 1 μ+",
+      "l 1 μ + μ",
+      "l 1 μ −μ"
+    ]
+  },
+  "mock2_q4": {
+    "text": "In the shown arrangement if f₁, f₂ and T be the frictional forces on 2 kg block, 3 kg block and tension in the string respectively, then their values are:",
+    "options": [
+      "2 N, 6 N, 3.2 N",
+      "2 N, 6 N, 0 N",
+      "1 N, 6 N, 2 N",
+      "Data insufficient to calculate the required values"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "In the shown arrangement if f1, f2 and T be the frictional forces on 2 kg block, 3kg block and tension in the string respectively, then their values are:",
+    "original_options": [
+      "2 N, 6 N, 3.2 N",
+      "2 N, 6 N, 0 N",
+      "1 N, 6 N, 2 N",
+      "Data insufficient to calculate the required values"
+    ]
+  },
+  "mock2_q19": {
+    "text": "A ball is released from the top of a tower. The ratio of work done by force of gravity in 1st second, 2nd second and 3rd second of the motion of ball is",
+    "options": [
+      "1 : 2 : 3",
+      "1 : 4 : 16",
+      "1 : 3 : 5",
+      "1 : 9 : 25"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "A ball is released from the top of a tower. The ratio of work done by force of gravity in 1st second, 2nd second and 3rd second of the motion of ball is",
+    "original_options": [
+      "1 : 2 : 3",
+      "1 : 4 : 16",
+      "1 : 3 : 5",
+      "1 : 9 : 25"
+    ]
+  },
+  "mock3_q26": {
+    "text": "The position vector of the centre of mass rₖₘ of an asymmetric uniform bar of negligible area of cross section as shown in figure is",
+    "options": [
+      "rₖₘ = (13/8)Lₓ + (5/8)Lᵧ",
+      "rₖₘ = (11/8)Lₓ + (3/8)Lᵧ",
+      "r = (11/8)Lₓ + (3/8)Lᵧ",
+      "r = (13/8)Lₓ + (5/8)Lᵧ"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "The position vector of the centre of mass rcm of an asymmetric uniform bar of negligible area of cross section as shown in figure is",
+    "original_options": [
+      "y ˆ 13 5 r = Lx + L 8 8 ˆ",
+      "y ˆ 11 3 r = Lx + L 8 8 ˆ",
+      "3 11 r = Lx + Ly ˆ 8 8 ˆ",
+      "5 13 r = Lx + Ly ˆ 8 8 ˆ"
+    ]
+  },
+  "mock3_q29": {
+    "text": "Two discs of moments of inertia I₁ and I₂ about their respective axes, rotating with angular frequencies ω₁ and ω₂ respectively, are brought into contact face to face with their axes of rotation coincident. The angular frequency of the composite disc will be",
+    "options": [
+      "ω = (I₁ω₁ + I₂ω₂) / (I₁ + I₂)",
+      "ω = (I₂ω₁ + I₁ω₂) / (I₁ + I₂)",
+      "ω = (I₁ω₁ - I₂ω₂) / (I₁ + I₂)",
+      "ω = (I₂ω₁ - I₁ω₂) / (I₁ + I₂)"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "Two discs of moments of inertia I1 and I2 about their respective axes, rotating with angular frequencies 1 ω and 2 ωrespectively, are brought into contact face to face with their axes of rotation coincident. The angular frequency of the composite disc will be",
+    "original_options": [
+      "1 1 2 2 1 I I I ω+ ω +",
+      "2 1 1 2 1 I I I ω+ ω +",
+      "1 1 2 2 1 I I I ω− ω −",
+      "2 1 1 2 1 I I I ω−ω −"
+    ]
+  },
+  "mock3_q32": {
+    "text": "Four thin rods of same mass M and same length l, form a square as shown in figure. Moment of inertia of this system about an axis through centre O and perpendicular to its plane is",
+    "options": [
+      "(2/3)Ml²",
+      "(1/3)Ml²",
+      "(1/6)Ml²",
+      "(1/2)Ml²"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "Four thin rods of same mass M and same length l, form a square as shown in figure. Moment of inertia of this system about an axis through centre O and perpendicular to its plane is",
+    "original_options": [
+      "2 4 M 3 l",
+      "3 l",
+      "6 l",
+      "2 2 M 3 l"
+    ]
+  },
+  "mock3_q82": {
+    "text": "Which of the following reactions is an example of a redox reaction?",
+    "options": [
+      "2 XeF₆ + PF₅ → [XeF]⁻ + PF₆⁺",
+      "6 XeF₆ + 2 H₂O → XeOF₄ + 2 HF",
+      "6 XeF₆ + 2 H₂O → XeO₂F₄ + 4 HF",
+      "4 XeF₂ + O₂ → XeF₄ + 2 O₂F₂"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "Which of the following reactions is an example of a redox reaction?",
+    "original_options": [
+      "2 5 6 XeF PF [XeF] PF + − + →",
+      "6 2 4 XeF H O XeOF 2HF + → +",
+      "6 2 2 4 XeF 2H O XeO F 4HF + → +",
+      "4 2 2 6 2 XeF O F XeF O + → +"
+    ]
+  },
+  "mock3_q83": {
+    "text": "If 1 M KMnO₄ and 1 M K₂Cr₂O₇ solutions can oxidize Fe²⁺ to Fe³⁺ in acidic medium, then volume of oxidant required for 1 mol of Fe²⁺ will be",
+    "options": [
+      "V(KMnO₄) > V(K₂Cr₂O₇)",
+      "V(KMnO₄) < V(K₂Cr₂O₇)",
+      "V(KMnO₄) = V(K₂Cr₂O₇)",
+      "cannot be predicted"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "If 1 M KMnO4 and 1 M K2Cr2O7 solutions can oxidize Fe to Fe in acidic medium, then volume of oxidant required for 1 mol of Fe will be",
+    "original_options": [
+      "4 2 2 7 KMnO K Cr O V V >",
+      "4 2 2 7 KMnO K Cr O V V <",
+      "4 2 2 7 KMnO K Cr O V V =",
+      "cannot be predicted"
+    ]
+  },
+  "mock4_q4": {
+    "text": "Two flasks R and S of volume V₁ and V₂ contain the same gas at pressure P₁ and P₂ respectively at the same temperature. Pressure of the gas when the flasks R and S are connected by a tube of negligible volume is",
+    "options": [
+      "P = (P₁V₁ + P₂V₂) / (V₁ + V₂)",
+      "P = (P₁V₁ + P₂V₂) / (2V₁V₂)",
+      "P = (P₁V₂ + P₂V₁) / (V₁ + V₂)",
+      "P = (P₁V₁ + P₂V₂) / (V₁ + V₂)"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "Two flasks R and S of volume V1 and V2 contain same gas at pressure P1 and P2 respectively at the same temperature. Pressure of the gas when the flasks R and S are connected by a tube of negligible volume is",
+    "original_options": [
+      "1 1 2 2 1 2 P V P V V V + +",
+      "( ) 1 1 2 2 1 2 P V P V 2 V V + +",
+      "1 2 2 1 1 2 P V P V V V + +",
+      "( )( ) ( ) 1 2 1 2 1 P V V V 2V + +"
+    ]
+  },
+  "mock4_q89": {
+    "text": "H₂(g) + ½ O₂(g) → H₂O(l) Β.Ε. (H – H) = x₁; Β.Ε. (O = O) = x₂; Β.Ε. (O – H) = x₃. Heat of vaporisation of water = x₄ then ΔHf (heat of formation of liquid water) is:",
+    "options": [
+      "(x₁ + x₂ - x₃ - x₄)",
+      "(x₂ - x₃ - x₁ - x₄)",
+      "(x₁ + x₂ - 2x₃ - x₄)",
+      "(x₁ + x₂ - x₃ + 2x₄)"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "H2 (g) + ½ O2 (g) → H2O(l) Β.Ε. (H – H) = x₁; Β.Ε. (Ο = O) = X2 ; Β.Ε. (Ο – Η) = X3 Heat of vaporisation of water = x4 then ΔHf (heat of formation of liquid water) is:",
+    "original_options": [
+      "2 1 3 4 x x x x 2 + − +",
+      "2 3 1 4 x 2x x x 2 − − −",
+      "2 1 3 4 x x 2x x 2 + − −",
+      "2 1 3 4 x x 2x x 2 + − +"
+    ]
+  },
+  "mock5_q8": {
+    "text": "The mass M shown in the figure oscillates in simple harmonic motion with amplitude A. The amplitude of point P is",
+    "options": [
+      "A/2",
+      "A/2k",
+      "A/(k₁ + k₂)",
+      "A/(k₁ + k₂)"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "The mass M shown in the figure oscillates in simple harmonic motion with amplitude A. The amplitude of point P is",
+    "original_options": [
+      "1 2 k A k",
+      "2 1 k A k",
+      "1 1 2 k A k k +",
+      "2 1 2 k A k k +"
+    ]
+  },
+  "mock6_q10": {
+    "text": "Two thin wire rings each having a radius R are placed at a distance d apart with their axes coinciding. The charges on the two rings are +q and –q. The potential difference between the centers of the rings is",
+    "options": [
+      "zero",
+      "−(2qR)/(d) + (1/(4πε₀))",
+      "(2qR)/(d) + (1/(4πε₀))",
+      "−(2qR)/(d) + (1/(2(4πε₀)))"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "Two thin wire rings each having a radius R are placed at a distance d apart with their axes coinciding. The charges on the two rings are +q and –q. The potential difference between the centers of the rings is",
+    "original_options": [
+      "zero",
+      "2 2 0 1 1 4 q R R d πε { } − { } − { }",
+      "2 0 4 qR d πε",
+      "2 2 0 1 1 2 q R R d πε { } − { } + { } 6 μF 5 μF 10 V C1 C2 K 2 μF 4 μF 6 μF 12 V"
+    ]
+  },
+  "mock6_q37": {
+    "text": "A charge Q is distributed over a line of length L. Another point charge q is placed at a distance r from the centre of the line distribution. Then the force experienced by q is",
+    "options": [
+      "F = (1/(4πε₀)) * (qQ)/(L - r²)",
+      "F = (1/(4πε₀)) * (qQ)/(L² - r²)",
+      "F = (1/(4πε₀)) * (qQ)/(r²)",
+      "F = (3/(4πε₀)) * (qQL)/(r²)"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "A charge Q is distributed over a line of length L. Another point charge q is placed at a distance r from the centre of the line distribution. Then the force experienced by q is + + + + + + L r q Q",
+    "original_options": [
+      ") L r( 4 qQ 2 2 0 − ∈ π",
+      ") ) 2 / L ( r( 4 qQ 2 2 0 − ∈ π",
+      "2 0 r 4 qQ ∈ π",
+      "3 0 r 4 qQL ∈ π"
+    ]
+  },
+  "mock7_q29": {
+    "text": "An infinitely long straight conductor is bent into the shape as shown in the figure. It carries a current of i ampere and the radius of the circular loop is r metre. Then the magnetic induction at its centre will be –",
+    "options": [
+      "B = μ₀(2i)/(4r) + μ₀(2i)/(4r)π",
+      "B = μ₀(2i)/(4r) - μ₀(2i)/(4r)π",
+      "0",
+      "∞"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "An infinitely long straight conductor is bent into the shape as shown in the figure. It carries a current of i ampere and the radius of the circular loop is r metre. Then the magnetic induction at its centre will be –",
+    "original_options": [
+      "( ) 0 2i 1 4 r μ π+ π",
+      "( ) 0 2i 1 4 r μ π− π",
+      "0",
+      "∞"
+    ]
+  },
+  "mock7_q30": {
+    "text": "The magnetic induction at the centre O in the figure shown is –",
+    "options": [
+      "μ₀(1/2) i R₁⁻(1/1)",
+      "μ₀(1/2) i R₁⁺(1/1)",
+      "(1/2) μ₀ i R₁ R₂⁻/4",
+      "(1/2) μ₀ i R₁ R₂⁺/4"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "The magnetic induction at the centre O in the figure shown is –",
+    "original_options": [
+      "0 1 2 i 1 1 R ( ) μ − ( ) ( )",
+      "0 1 2 i 1 1 R ( ) μ + ( ) ( )",
+      "( ) 0 1 2 i R R 4 μ −",
+      "( ) 0 1 2 i R R 4 μ +"
+    ]
+  },
+  "mock8_q1": {
+    "text": "Paramagnetic and exhibits ionisation isomerism Q [Ti(H₂O)₅Cl](NO₃)₂; Diamagnetic and exhibits cis-trans isomerism R [Pt(en)(NH₃)Cl](NO₃); Paramagnetic and exhibits cis-trans isomerism S [Co(NH₃)₄(NO₃)₂](NO₃); Diamagnetic and exhibits ionisation isomerism Code: P Q R S",
+    "options": [
+      "4 2 3 1",
+      "3 1 4 2",
+      "2 1 3 4",
+      "1 3 4 2"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "Paramagnetic and exhibits ionisation isomerism Q [Ti(H2O)5Cl](NO3)2 2 Diamagentic and exhibits cis trans isomerism R [Pt(en)(NH3)Cl]NO3 3 Paramagentic and exhibits cis trans isomerism S [Co(NH3)4(NO3)2]NO3 4 Diamagentic and exhibits ionisation isomerism Code : P Q R S",
+    "original_options": [
+      "4 2 3 1",
+      "3 1 4 2",
+      "2 1 3 4",
+      "1 3 4 2"
+    ]
+  },
+  "mock8_q6": {
+    "text": "Earth's magnetic field may be supposed to be due to a small bar magnet located at the centre of the earth. If the magnetic field at a point on the magnetic equator is 0.3 × 10⁻⁴ T. Magnet moment of bar magnet is",
+    "options": [
+      "8.27 × 10² amp·m²",
+      "7.8 × 10²² amp·m²",
+      "6.4 × 10²² amp·m²",
+      "6.4 × 10⁸ amp·m²"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "Earth's magnetic field may be supposed to be due to a small bar magnet located at the centre of the earth. If the magnetic field at a point on the magnetic equator is 0.3×10–4 T. Magnet moment of bar magnet is",
+    "original_options": [
+      "8 2 7.8 10 amp m × ×",
+      "22 2 7.8 10 amp m × ×",
+      "22 2 6.4 10 amp m × ×",
+      "6.4 × 108 amp×m2"
+    ]
+  },
+  "mock8_q17": {
+    "text": "The mean electric energy density between plates of a charged capacitor:",
+    "options": [
+      "u = (1/2) ε₀ E²",
+      "u = (1/2) (q²/ε₀ A)",
+      "u = (1/2) (q²/(2Aε₀))",
+      "None of these"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "The mean electric energy density between plates of a charged capacitor:",
+    "original_options": [
+      "2 2 0 q ε",
+      "2 0 q ε",
+      "2 0 q 2 A ε",
+      "None of these"
+    ]
+  },
+  "mock8_q18": {
+    "text": "Two inductors L₁ and L₂ are connected in parallel and a time varying current i flows as shown. The ratio of currents i₁/i₂ at any time t is",
+    "options": [
+      "L₁/L₂",
+      "L₂/L₁",
+      "L₁/(L₁ + L₂)",
+      "L₂/(L₁ + L₂)"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "Two inductors L1 and L2 are connected in parallel and a time varying current i flows as shown. The ratio of currents i1/i2 at any time t is",
+    "original_options": [
+      "L1/L2",
+      "L2/L1",
+      "2 1 2 1 (L + L )",
+      "2 2 2 1 (L + L )"
+    ]
+  },
+  "mock8_q40": {
+    "text": "A sinusoidal voltage V₀ sin(ωt) is applied across a series combination of resistance R and inductor L. The amplitude of the current in the circuit is",
+    "options": [
+      "V₀/√(R² + (ωL)²)",
+      "−V₀/√(R² + (ωL)²)",
+      "V₀/√(R² + (ωL)²) sin(ωt)",
+      "V₀/R"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "A sinusoidal voltage Vosinωt is applied across a series combination of resistance R and inductor L. The amplitude of the current in the circuit is",
+    "original_options": [
+      "+ ω o 2 2 2 V R L",
+      "−ω o 2 2 2 V R L",
+      "+ ω o 2 2 2 V R L sinωt",
+      "Vo/R"
+    ]
+  },
+  "mock8_q69": {
+    "text": "Which of the following are basic oxides? Mn₂O₇, V₂O₃, V₂O₅, CrO, Cr₂O₃",
+    "options": [
+      "Mn₂O₇ and V₂O₃",
+      "V₂O₃ and CrO",
+      "CrO and Cr₂O₃",
+      "V₂O₅ and V₂O₃"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "Which of the following are basic oxides? 2 7 2 3 2 5 2 3 Mn O ,V O ,V O ,CrO,Cr O",
+    "original_options": [
+      "2 7 Mn O and 2 3 V O",
+      "2 3 V O and CrO",
+      "CrO and 2 3 Cr O",
+      "2 5 V O and 2 3 V O"
+    ]
+  },
+  "mock9_q41": {
+    "text": "A ray of light is incident on the surface of a glass plate at an angle of incidence equal to Brewster’s angle φ. If μ represents the refractive index of glass with respect to air, then the angle between the reflected and the refracted rays is",
+    "options": [
+      "90° + φ",
+      "sin⁻¹(μ cos φ)",
+      "90°",
+      "1/sin(90° - φ) μ"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "A ray of light is incident on the surface of a glass plate at an angle of incidence equal to Brewster’s angel φ. If μ represents the refractive index of glass with respect to air, then the angle between the reflected and the refracted rays is",
+    "original_options": [
+      "90° + φ",
+      "sin–1(μ cos φ)",
+      "90°",
+      "1 sin 90 sin−( ) φ °− ( ) μ ( )"
+    ]
+  },
+  "mock9_q68": {
+    "text": "Match the species in Column I with corresponding reactants in Column II and choose the correct option. Column I (Reaction) Column II (Name) A Gattermann reaction 1 C₆H₅COOAg ⋅ Br₂/KCl/Heat B Hunsdiecker reaction 2 Hg₂F₂/Δ C Swarts reaction 3 C₆H₅N₂ + Cl⁻, CuCl/HCl, Heat D Sandmeyer reaction 4 C₆H₅N₂ + Cl⁻, Cu/HCl, Heat",
+    "options": [
+      "1 2 3 4",
+      "4 1 2 3",
+      "4 3 2 1",
+      "1 2 4 3"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "Match the species in Column I with corresponding reactants in Column II and choose the correct option. Column I (Reaction) Column II (Name) A Gattermann reaction 1 C6H5COOAg ⋅ Br2KCl4/ Heat B Hunsdiecker reaction 2 Hg2 F2/Δ C Swarts reaction 3 C6H5 N2 +Cl−, CuCl/ HCl, Heat D Sandmeyer reaction 4 C6H5 N2 +Cl−, Cu/HCl, Heat A B C D",
+    "original_options": [
+      "1 2 3 4",
+      "4 1 2 3",
+      "4 3 2 1",
+      "1 2 4 3"
+    ]
+  },
+  "2017_q27": {
+    "text": "Radioactive material 'A' has decay constant '8λ' and material 'B' has decay constant 'λ'. Initially they have the same number of nuclei. After what time will the ratio of the number of nuclei of material 'B' to that of 'A' be e⁻¹?",
+    "options": [
+      "t = 1/7λ",
+      "t = 1/8λ",
+      "t = 1/9λ",
+      "t = 1/λ"
+    ],
+    "model": "gpt-4o-mini",
+    "original_text": "Radioactive material 'A' has decay constant '8 λ' and material 'B' has decay constant 'λ'. Initially they have same number of nuclei. After what time, the ratio of number of nuclei of material 'B' to that 'A' will be 1 e ?",
+    "original_options": [
+      "1 7λ",
+      "1 8λ",
+      "1 9λ",
+      "1 λ"
+    ]
+  }
+}

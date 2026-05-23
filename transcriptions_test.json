@@ -1,0 +1,57 @@
+{
+  "2025_q77": {
+    "text": "Which one of the following compounds does not decolourize bromine water ?",
+    "options": [
+      "See image",
+      "OH",
+      "CH=CH2",
+      "NH2"
+    ],
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-05-21T16:45:54"
+  },
+  "2023_q172": {
+    "text": "172. Match List I with List II. List I (Type of Joint) A. Cartilaginous Joint B. Ball and Socket Joint C. Fibrous Joint D. Saddle Joint List II (Found between) I. Between flat skull bones II. Between adjacent vertebrae in vertebral column III. Between carpal and metacarpal of thumb IV. Between Humerus and Pectoral girdle Choose the correct answer from the options given below :",
+    "options": [
+      "A-II, B-IV, C-I, D-III",
+      "A-I, B-IV, C-III, D-II",
+      "A-II, B-IV, C-III, D-I",
+      "A-III, B-I, C-II, D-IV"
+    ],
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-05-21T16:45:59"
+  },
+  "2025_q1": {
+    "text": "Consider a water tank shown in the figure. It has one wall at $x = L$ and can be taken to be very wide in the $z$ direction. When filled with a liquid of surface tension $S$ and density $\\rho$, the liquid surface makes angle $\\theta_0(\\theta_0 << 1)$ with the x-axis at $x = L$. If $y(x)$ is the height of the surface then the equation for $y(x)$ is:\n(take $\\theta(x) = \\sin\\theta(x) = \\tan\\theta(x)= \\frac{dy}{dx}$, $g$ is the acceleration due to gravity)",
+    "options": [
+      "$\\frac{d^2y}{dx^2} = \\frac{\\rho g}{S} x$",
+      "$\\frac{d^2y}{dx^2} = \\frac{\\rho g}{S} y$",
+      "$\\frac{d^2y}{dx^2} = \\sqrt{\\frac{\\rho g}{S}}$",
+      "$\\frac{dy}{dx} = \\sqrt{\\frac{\\rho g}{S} x}$"
+    ],
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-05-21T16:46:03"
+  },
+  "2025_q47": {
+    "text": "Which of the following statements are true?  A. Unlike Ga that has a very high melting point, Cs has a very low melting point.  B. On Pauling scale, the electronegativity values of N and Cl are not the same.  C. Ar, K+, Cl-, Ca2+, and S2- are all isoelectronic species.  D. The correct order of the first ionization enthalpies of Na, Mg, Al, and Si is Si > Al > Mg > Na.  E. The atomic radius of Cs is greater than that of Li and Rb.  Choose the correct answer from the options given below",
+    "options": [
+      "A, B and E only",
+      "C and E only",
+      "C only",
+      "A, C and E only"
+    ],
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-05-21T16:46:07"
+  },
+  "2025_q93": {
+    "text": "What are the potential drawbacks in adoption of the IVF method? A. High fatality risk to mother B. Expensive instruments and reagents C. Husband/wife necessary for being donors D. Less adoption of orphans E. Not available in India F. Possibility that the early embryo does not survive Choose the correct answer from the options given below :",
+    "options": [
+      "B, D, F only",
+      "A, C, D, F only",
+      "A, B, C, D only",
+      "A, B, C, E, F only"
+    ],
+    "model": "gpt-4o-mini",
+    "timestamp": "2026-05-21T16:46:10"
+  }
+}

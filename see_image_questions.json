@@ -1,0 +1,662 @@
+[
+  {
+    "id": "2025_q74",
+    "year": 2025,
+    "q_number": 74,
+    "subject": "Chemistry",
+    "text": "65. C(s) + 2H2(g) \u2192 CH4(g); \u0394H = -74.8 kJ mol\u207b\u00b9 Which of the following diagrams gives an accurate representation of the above reaction? [R \u2192 reactants; P \u2192 products]\n\n(1)\nEnergy\n(kJ mol\u207b\u00b9)\n\u2191\nR\n74.8\nP\n\u2192 Reaction progress\n\n(2)\nEnergy\n(kJ mol\u207b\u00b9)\n\u2191\nR\n74.8\nP\n\u2192 Reaction progress\n\n(3)\nEnergy\n(kJ mol\u207b\u00b9)\n\u2191\nR\n74.8\nP\n\u2192 Reaction progress\n\n(4)\nEnergy\n(kJ mol\u207b\u00b9)\n\u2191\nR\n74.8\nP\n\u2192 Reaction progress\n\n66. Match List \u2013 I with List \u2013 II\nList-I\n(Example)\nA. Humidity\nB. Alloys\nC. Amalgams\nD. Smoke\nList-II\n(Type of Solution)\nI. Solid in solid\nII. Liquid in gas\nIII. Solid in gas\nIV. Liquid in solid\nChoose the correct answer from the options given below:",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 1,
+    "solution": "Benzenediazonium chloride is a colourless crystalline solid. It is readily soluble in water and is stable in cold but reacts with water when warmed. It decomposes easily in the dry state. NH2 HNO2 N\u2261N \u2295 Benzene diazonium salt KI I \u2295 N\u2261N Iodobenzene 273-278 K"
+  },
+  {
+    "id": "2025_q77",
+    "year": 2025,
+    "q_number": 77,
+    "subject": "Chemistry",
+    "text": "Which one of the following compounds does not decolourize bromine water ?",
+    "options": [
+      "See image",
+      "OH",
+      "CH=CH2",
+      "NH2"
+    ],
+    "correct_answer": 1,
+    "solution": "(1) OH Br2 + H2O OH Br Br Br (2) CH=CH2 Br2+H2O CH\u2013CH2Br OH (3) NH2 Br2+H2O Br Br Br NH2 (4) Br2 + H2O No reaction \u2234 Bromine water solution is decolourised in reaction (1), (2), (3) but not in (4)."
+  },
+  {
+    "id": "2024_q26",
+    "year": 2024,
+    "q_number": 26,
+    "subject": "Physics",
+    "text": "26. The graph which shows the variation of $\\frac{1}{\\lambda^2}$ and its kinetic energy, E is (where $\\lambda$ is de Broglie wavelength of a free particle) :",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 4,
+    "solution": "de-Broglie wavelength and energy relation of a free particle h 2mE \u03bb = 2 2 h 2mE \u03bb = 2 2 1 2m E h = \u03bb Graph 2 1 v / s E \u03bb E O E 68"
+  },
+  {
+    "id": "2024_q36",
+    "year": 2024,
+    "q_number": 36,
+    "subject": "Physics",
+    "text": "36. The velocity (v) \u2013 time (t) plot of the motion of a body is shown below :\nThe acceleration (a) \u2013 time (t) graph that best suits this motion is :",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 3,
+    "solution": "t a V t"
+  },
+  {
+    "id": "2024_q45",
+    "year": 2024,
+    "q_number": 45,
+    "subject": "Physics",
+    "text": "45. Choose the correct circuit which can achieve the bridge balance.",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 1,
+    "solution": "To Balance Bridge P R Q S = Here P = 10 \u2126 Q = 10 \u2126 R = 15 \u2126 and S = 5 + RDiode where RDiode should be 10 \u2126 to Balance Bridge."
+  },
+  {
+    "id": "2024_q71",
+    "year": 2024,
+    "q_number": 71,
+    "subject": "Chemistry",
+    "text": "71. Which plot of ln k vs \\frac{1}{T} is consistent with Arrhenius equation?",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 4,
+    "solution": "k = A \u00b7 a E /RT e \u2212 \u2113n k = \u2113n A \u2013 a E RT a E 1 nk nA R T \u2212 = + \u2113 \u2113 y = mx + c On comparing \u21d2 \u2113n k \u2192 y ; 1 x T \u2192 This is a equation of straight line with negative slope. E 72"
+  },
+  {
+    "id": "2023_q67",
+    "year": 2023,
+    "q_number": 67,
+    "subject": "Chemistry",
+    "text": "67. Identify the product in the following reaction :\n\n$$\\begin{array}{c}\n+ N_2 \\quad Cl^- \\\\\n\\text{(i) } Cu_2Br_2/HBr \\\\\n\\text{(ii) } Mg/dry \\text{ ether } \\rightarrow \\text{ Product} \\\\\n\\text{(iii) } H_2O\n\\end{array}$$",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 1,
+    "solution": "(ii) Mg/Dry ether Mg Br (iii) H2O (hydrolysis) H + Mg Br OH Br (i) Cu2Br2/HBr N2 Cl + \u2013"
+  },
+  {
+    "id": "2023_q92",
+    "year": 2023,
+    "q_number": 92,
+    "subject": "Chemistry",
+    "text": "92. Identify the major product obtained in the following reaction:\n\n\\[\\text{C}_6\\text{H}_5\\text{CHO} + 2[\\text{Ag(NH}_3)_2]^+ + 3 \\text{OH}^- \\rightarrow \\text{major product}\\]",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 2,
+    "solution": ""
+  },
+  {
+    "id": "2023_q100",
+    "year": 2023,
+    "q_number": 100,
+    "subject": "Chemistry",
+    "text": "100. Identify the final product [D] obtained in the following sequence of reactions.\nCH3CHO\n\ti) LiAlH4 \u2192 [A]\n\tii) H3O+ \u2192 [B]\n\tH2SO4 \u2192 [D]\nBr\nHBr \u2192 [C] \u2192 [D]\nNa/dry ether",
+    "options": [
+      "See image",
+      "C4H10",
+      "HC \u2261 C\u2070 Na\u207a",
+      "See image"
+    ],
+    "correct_answer": 4,
+    "solution": "CH3\u2013CH=O LiAlH4 H3O + CH3\u2013CH2\u2013OH H + \u2206 CH2=CH2 \u2014CH 2\u2013CH3 \u2014Br Na, Dry ether CH 3\u2013CH2\u2013Br HBr (Wurtz \u2013 Fittig reaction)"
+  },
+  {
+    "id": "2023_q168",
+    "year": 2023,
+    "q_number": 168,
+    "subject": "Biology",
+    "text": "168. Which one of the following symbols represents mating between relatives in human pedigree analysis?",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 1,
+    "solution": ""
+  },
+  {
+    "id": "2022_q16",
+    "year": 2022,
+    "q_number": 16,
+    "subject": "Physics",
+    "text": "The graph which shows the variation of the de Broglie wavelength (\u03bb) of a particle and its associated momentum (p) is :",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 3,
+    "solution": "\u03bb = h p Graph will be hyperbolic \u03bb p"
+  },
+  {
+    "id": "2022_q67",
+    "year": 2022,
+    "q_number": 67,
+    "subject": "Chemistry",
+    "text": "67. Which compound amongst the following is not an aromatic compound ?",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 3,
+    "solution": "\u2295 Aromatic Aromatic \u2295 Non-Aromatic Aromatic"
+  },
+  {
+    "id": "2021_q52",
+    "year": 2021,
+    "q_number": 52,
+    "subject": "Chemistry",
+    "text": "52. The correct structure of 2,6-Dimethyl-dec-4-ene is:",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 1,
+    "solution": "4 2 1 10 9 8 7 6 5 3 2, 6 dimethyl dec-4-ene"
+  },
+  {
+    "id": "2021_q71",
+    "year": 2021,
+    "q_number": 71,
+    "subject": "Chemistry",
+    "text": "Choose the correct option for graphical representation of Boyle's law, which shows a graph of pressure vs. volume of a gas at different temperatures:",
+    "options": [
+      "See image",
+      "(200 K, 400 K, 600 K)",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 4,
+    "solution": "According to Boyle's law V \u221d At a given pressure, V T \u221d P V1 V2 V3 Volume(V) (dm3) 600K 400K 200K Pressure (P) (bar)"
+  },
+  {
+    "id": "2021_q79",
+    "year": 2021,
+    "q_number": 79,
+    "subject": "Chemistry",
+    "text": "For a reaction A \u2192 B, enthalpy of reaction is \u22124.2 kJ mol\u207b\u00b9 and enthalpy of activation is 9.6 kJ mol\u207b\u00b9. The correct potential energy profile for the reaction is shown in option.",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 2,
+    "solution": "For a given reaction \u2206H is negative. Hence, potential energy profile is of an exothermic reaction."
+  },
+  {
+    "id": "2021_q100",
+    "year": 2021,
+    "q_number": 100,
+    "subject": "Chemistry",
+    "text": "100.\n\nCN\nLiAlH4, H2O\n\nCH2-NH2\n\nNaNO2+HCl\n\nCH2\n\nCH2-N2Cl\n\nCH2-OH\nH2O\n\nCH2",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 1,
+    "solution": "+CrO2Cl2 CH3 CS2 X H3O+ C O H Toluene Benzaldehyde = CH(OCrOHCl2)2 X"
+  },
+  {
+    "id": "2020_q38",
+    "year": 2020,
+    "q_number": 38,
+    "subject": "Physics",
+    "text": "38. Which of the following graph represents the variation of resistivity (\u03c1) with temperature (T) for copper ?",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 4,
+    "solution": "For some metals like copper, resistivity is nearly proportional to temperature although a non linear region always exists at very low temperature."
+  },
+  {
+    "id": "2020_q48",
+    "year": 2020,
+    "q_number": 48,
+    "subject": "Chemistry",
+    "text": "48. \\( M_{remain} = \\frac{3}{4}M \\) \\n \\( I = M_{remain} R^2 \\) \\n = \\( \\frac{3}{4}MR^2 \\) \\n \\( B = \\frac{\\mu_0 I_1}{2R} \\) (\\( \\pi R^2_2 \\))",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 4,
+    "solution": "CH4(g) + 4Cl2(g) \u2192 CCl4(\u2113) + 4HCl(g) CH4(\u20134) \u21d2 C + 4(+1) = 0 \u21d2 C = \u20134 CCl4(+4) \u21d2 C + 4(\u20131) = 0 \u21d2 C = +4 \u20134 to + 4"
+  },
+  {
+    "id": "2020_q51",
+    "year": 2020,
+    "q_number": 51,
+    "subject": "Chemistry",
+    "text": "51. Aspirin and paracetamol belongs to the class of non-narcotic analgesic. Morphine and heroin are narcotic analgesics.",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 2,
+    "solution": "He2 = Total electron = 4 2 *2 1 1 \u03c3 \u03c3 = \u03c3 \u03c3 \u21d2 B.O. = [ ] [ ] 1 1 Nb N[ 2 2 0 2 2 \u2212 N \u2212 N Bond order = 0, so He2 does not exist."
+  },
+  {
+    "id": "2020_q52",
+    "year": 2020,
+    "q_number": 52,
+    "subject": "Chemistry",
+    "text": "52. 2, 6 dimethyl dec-4-ene",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 4,
+    "solution": "H\u2013O\u2013S\u2013O\u2013O\u2013S\u2013O\u2013H O O O O Peroxy linkage"
+  },
+  {
+    "id": "2020_q53",
+    "year": 2020,
+    "q_number": 53,
+    "subject": "Chemistry",
+    "text": "53.  \n\nsp\u00b2, Trigonal planar  \n6e\u207b around central atom  \n\nE",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 2,
+    "solution": "According to spectrochemical series."
+  },
+  {
+    "id": "2020_q58",
+    "year": 2020,
+    "q_number": 58,
+    "subject": "Chemistry",
+    "text": "58. Dihedral angle (D.A.) of least stable conformer of ethane = 0\u00b0",
+    "options": [
+      "D.A.=0\u00b0 (Eclipsed)",
+      "D.A.=60\u00b0 (Staggered)",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 4,
+    "solution": "n-Heptane can not be made in good yield using Wurtz reaction since it is unsymmetrical alkane. E 201"
+  },
+  {
+    "id": "2020_q59",
+    "year": 2020,
+    "q_number": 59,
+    "subject": "Chemistry",
+    "text": "59. Most of the trivalent lanthanoid ions are coloured in the solid state.",
+    "options": [
+      "True",
+      "False",
+      "Depends on the ion",
+      "See image"
+    ],
+    "correct_answer": 3,
+    "solution": "NH2CONH2 + H2O \u2192 CO2 + 4 NH OH (A) 4 3 2 NH OH NH H O (B) \u2206 \u2192 + Cu+2(aq) + 4NH3 \u2192 2 3 4 [Cu(NH ) ] (deepblue) (C) +"
+  },
+  {
+    "id": "2020_q60",
+    "year": 2020,
+    "q_number": 60,
+    "subject": "Chemistry",
+    "text": "60.\nBr\nCH3\u2212CH2\u2212CH\u2212CH3\n(2-Bromopentane)\nDehydrohalogenation\n(E2\u2212Elimination/\u03b2-Elimination)\nCH3\u2212CH2\u2212CH=CH\u2212CH3\n(Pent-2-ene)\n(Major product by Saytzeff's rule)",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 4,
+    "solution": "\u2206Tf = Kf \u00d7 m = 5.12 \u00d7 0.078 \u2206Tf = 0.40 K"
+  },
+  {
+    "id": "2020_q63",
+    "year": 2020,
+    "q_number": 63,
+    "subject": "Chemistry",
+    "text": "63. H3C\u2212C(=O)\u2212CH3  \n\u03b4+  \n\u03b4\u2212  \nC2H5\u2212Mg\u2212Br, dry ether  \n\u2192  \nCH3\u2212C\u2212CH3  \nC2H5  \nH3O+ (Hydrolysis)  \nMg\u2212B  \nOH  \n\u2193  \nOH  \nCH3\u2212C\u2212CH3  \nCH2\u2212CH3  \n2-Methylbutan-2-ol.",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 1,
+    "solution": "Pig iron contains impurities (C, S, Si, P etc) having malleable nature that's why can be moulded."
+  },
+  {
+    "id": "2020_q67",
+    "year": 2020,
+    "q_number": 67,
+    "subject": "Chemistry",
+    "text": "67. Tritium is radioactive and emits low energy \u03b2 particles (\u22121e\u2070)",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 2,
+    "solution": "\u03b1 = 1 for NaOH NaOH(aq) \u2192 \u2013 0.1M 0.1M Na (aq) OH (aq) + + Ni(OH)2(s) 2 S' 0.1 2S' Ni (aq) 2OH (aq) + \u2212 + + \u2296\u2296\u2296[?U+E086] [?U+E087]\u2296\u2296\u2296 Ionic product = (S') (0.1 + 2S')2 2 \u00d7 10\u201315 = S'(0.1)2 S' = 2 \u00d7 10\u201313 M"
+  },
+  {
+    "id": "2020_q71",
+    "year": 2020,
+    "q_number": 71,
+    "subject": "Chemistry",
+    "text": "71. According to Boyle's law\nP \u221d \\frac{1}{V}\nAt a given pressure,\nV \u221d T",
+    "options": [
+      "600K",
+      "400K",
+      "200K",
+      "See image"
+    ],
+    "correct_answer": 4,
+    "solution": "k = 4.606 \u00d7 10\u20133s\u20131 10 2 kt 2.303log 0.2 = 3 4.606 10 t 2.303 log10 \u2212 \u00d7 \u00d7 = \u00d7 1000 t 500s 2 = ="
+  },
+  {
+    "id": "2020_q74",
+    "year": 2020,
+    "q_number": 74,
+    "subject": "Chemistry",
+    "text": "74. The maximum temperature that can be achieved in blast furnace is upto 2200 K.",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 1,
+    "solution": "Correct statement are (c) and (d) (c) use of zeolite (3d-silicate) (d) CO-neutral, colourless & odourless gas."
+  },
+  {
+    "id": "2020_q77",
+    "year": 2020,
+    "q_number": 77,
+    "subject": "Chemistry",
+    "text": "77. H\u2013F 1s\u20132p\nH\u2013Cl 1s\u20133p\nH\u2013Br 1s\u20134p\nH\u2013I 1s\u20135p\nDown the group size increases\nOverlapping decreases\nAcidic strength increases",
+    "options": [
+      "Down the group size increases",
+      "Overlapping decreases",
+      "Acidic strength increases",
+      "See image"
+    ],
+    "correct_answer": 4,
+    "solution": "CH2\u2013CH=CH2 (i)O3 (ii)Zn.H2O CH2\u2013CHO + H\u2013C\u2013H O Methanal"
+  },
+  {
+    "id": "2020_q78",
+    "year": 2020,
+    "q_number": 78,
+    "subject": "Chemistry",
+    "text": "BeCl2 in solid state exist in a polymeric form & in a vapour state in exist in a dimeric form.\nchain polymeric structure\nVapour state exist in a dimeric form",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 2,
+    "solution": "O\u2013CH 3 .. : H \u2013 I + \u03b4 O\u2013CH3 | H \u2295 I SN2 \u2013 \u03b4 OH + CH3\u2013 I"
+  },
+  {
+    "id": "2020_q79",
+    "year": 2020,
+    "q_number": 79,
+    "subject": "Chemistry",
+    "text": "79. For a given reaction \u0394H is negative. Hence, potential energy profile is of an exothermic reaction.",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 2,
+    "solution": "CH3\u2013CH\u2013CH\u2013CH2\u2013CH3 | Br \u03b1 H NaOEt + \u2013 E2 CH3\u2013CH=CH\u2013CH2\u2013CH3 sec. alkyl halide + EtOH \u03b2 * This reaction is an example of \u03b2-elimination. * Hydrogen is removed from \u03b2-carbon and halgoen from \u03b1-carbon, hence, dehydrohalgoenation reaction. * Generally in E2 reaction Zaitsev alkene is formed as major product (more stable alkene)."
+  },
+  {
+    "id": "2020_q84",
+    "year": 2020,
+    "q_number": 84,
+    "subject": "Chemistry",
+    "text": "1\u00b0 amines react with Hingsberg's reagent to give a solid, which dissolve in alkali.\nCH3\u2013CH2\u2013NH2 + S \u2013 Cl \u27f6\n(Solid)\n(soluble in alkali)",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 3,
+    "solution": "(a) CO (ii) Neutral (b) BaO (i) Basic (c) Al2O3 (iv) Amphoteric (d) Cl2O7 (iii) Acidic"
+  },
+  {
+    "id": "2020_q100",
+    "year": 2020,
+    "q_number": 100,
+    "subject": "Biology",
+    "text": "100.\n\n\\[ \\text{Toluene} + \\text{CrO}_2\\text{Cl}_2 \\xrightarrow{\\text{C}_3\\text{H}_2} X \\xrightarrow{\\text{H}_2} \\text{Benzaldehyde} \\]\n\nX = \\[ \\text{CH} \\left( \\text{O} \\text{CrO} \\text{Cl}_2 \\right)_2 \\]",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 2,
+    "solution": ""
+  },
+  {
+    "id": "2019_q28",
+    "year": 2019,
+    "q_number": 28,
+    "subject": "Physics",
+    "text": "A cylindrical conductor of radius R is carrying a constant current. The plot of the magnitude of the magnetic field, B with the distance d, from the centre of the conductor, is correctly represented by the figure :",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 3,
+    "solution": "0 2 0 \u00b5 id : d R 2 R B \u00b5 i : d R 2 d \u2264 \u03c0 = > \u03c0 d = R d B"
+  },
+  {
+    "id": "2018_q85",
+    "year": 2018,
+    "q_number": 85,
+    "subject": "Chemistry",
+    "text": "Essential amino acid  (V_m)_{real} < (V_m)_{ideal}  Z = \\frac{(V_m)_{real}}{(V_m)_{ideal}}  Z < 1 and attractive forces are dominant.",
+    "options": [
+      "valine",
+      "leucine",
+      "lysine",
+      "See image"
+    ],
+    "correct_answer": 2,
+    "solution": "Tetrahedral geometry and diamagnetic Ni \u2192 3d 8 4s 2 CO is SFL so unpaired electrons will get paired. CO CO CO CO sp 3 hybridisation Tetrahedral, diamagnetic"
+  },
+  {
+    "id": "2018_q86",
+    "year": 2018,
+    "q_number": 86,
+    "subject": "Chemistry",
+    "text": "86. Halogenation (Electrophilic substitution reactions) : Arenes react with halogens in the presence of a Lewis acid like anhydrous AlCl3.\n\n\\[ \\text{C}_6\\text{H}_6 + \\text{Cl}_2 \\xrightarrow{\\text{Anhyd. AlCl}_3} \\text{C}_6\\text{H}_5\\text{Cl} + \\text{HCl} \\]\n\nChlorobenzene",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 2,
+    "solution": "Fe(CO)5 EAN = Z\u2013O.N. + 2(C.N.) = 26 \u2013 0 + 2(5) = 26 + 10 = 36 only one central metal atom/ion is present and it follows EAN rule, so it is mononuclear"
+  },
+  {
+    "id": "2017_q82",
+    "year": 2017,
+    "q_number": 82,
+    "subject": "Chemistry",
+    "text": "82. The molecule which forms zwitter ion is glycine.\n\nHOOC\u2013CH2\u2013NH2 \u21cc OOC\u2013CH2\u2013NH3+\n\nZwitter ion",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 4,
+    "solution": "a a \u221d \u03bb where Ea \u21d2 absorbed energy (splitting energy) \u03bba \u21d2 absorbed wavelength Presence of SFL \u21d2 Ea(\u2191) \u03bba(\u2193) H2O < NH3 < en ligand strength \u2191 splitting energy \u2191 so absorbed \u03bb\u2193 E 278"
+  },
+  {
+    "id": "2017_q84",
+    "year": 2017,
+    "q_number": 84,
+    "subject": "Chemistry",
+    "text": "84. CrO4^{-2} Cr^{6+} diamagnetic\nCr2O7^{-2} Cr^{6} diamagnetic\nMnO4^{-} Mn^{7+} diamagnetic\nMnO4^{-2} Mn^{6+} paramagnetic 1\nunpaired electron is present so d\u2013d transition is possible.",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 1,
+    "solution": "O + O O Mechanism O H OH O O O OH \u2013 H2O \u2206 O H\u2013OH"
+  },
+  {
+    "id": "2017_q85",
+    "year": 2017,
+    "q_number": 85,
+    "subject": "Chemistry",
+    "text": "85. Tetrahedral geometry and diamagnetic\nNi \u2014> $3d^8$ $4s^2$\nCO is SFL so unpaired electrons will get paired.\n$sp^3$ hybridisation\nTetrahedral, diamagnetic",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 2,
+    "solution": "Total no. of electrons in CN \u2013 is 14 Total no. of electrons in CO is also 14 hence B.O. of both CN \u2013 & CO is 3"
+  },
+  {
+    "id": "2017_q89",
+    "year": 2017,
+    "q_number": 89,
+    "subject": "Chemistry",
+    "text": "-NO2 group is meta-directing group\n\n(Less stable due to more e\u207b withdrawing effect of -NO2)\n\n(More stable due to less e\u207b withdrawing effect of -NO2)\n\nsp\u00b2  sp\u00b2  sp  sp",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 2,
+    "solution": "Minimum energy gap between 5f, 6d & 7s subshell. Thats why e \u2013 exitation will be easeir."
+  },
+  {
+    "id": "2017_q90",
+    "year": 2017,
+    "q_number": 90,
+    "subject": "Chemistry",
+    "text": "90. \\( sp^2 \\) \\( CH_2 = CH - C \\equiv CH \\)",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 3,
+    "solution": "Denaturation makes the protein less active."
+  },
+  {
+    "id": "2016_q81",
+    "year": 2016,
+    "q_number": 81,
+    "subject": "Chemistry",
+    "text": "81. Sn^{+2} \\rightarrow Sn^{+4}  (R.A)  Sn^{+2} < Sn^{+4}  Stability order  Pb^{+4} \\rightarrow Pb^{+2}  (O.A)  Pb^{+2} > Pb^{+4}  Stability order  (Inert pair effect)",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 4,
+    "solution": "H H H H H H H H H H H H Staggered form * No torsional strain Eclipsed form"
+  },
+  {
+    "id": "2016_q83",
+    "year": 2016,
+    "q_number": 83,
+    "subject": "Chemistry",
+    "text": "[Co(NH3)6]Cl3 \u2192 3 mol AgCl\n[Co(NH3)5Cl]Cl2 \u2192 2 mol AgCl\n[Co(NH3)4Cl2]Cl \u2192 1 mol AgCl\nExample of substitution reaction.",
+    "options": [
+      "3 mol AgCl",
+      "2 mol AgCl",
+      "1 mol AgCl",
+      "See image"
+    ],
+    "correct_answer": 1,
+    "solution": "C R H H+ C N\u2014R' R H Aldehyde O + R'\u2014NH2 + primary amine Schiff base"
+  },
+  {
+    "id": "2016_q84",
+    "year": 2016,
+    "q_number": 84,
+    "subject": "Chemistry",
+    "text": "84.\n\nMechanism",
+    "options": [
+      "See image",
+      "See image",
+      "See image",
+      "See image"
+    ],
+    "correct_answer": 2,
+    "solution": "Br I Br I is optically active due to absence of plane of symmetry and center of symmetry"
+  }
+]
